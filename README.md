@@ -2,6 +2,6 @@
 
 Buckets -- Better Family Budgeting
 
-[Download](releases)
+[Download](https://github.com/buckets/application/releases)
 
 ![Buckets](./icon.png)
