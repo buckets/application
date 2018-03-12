@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.37.0
+
+- **FIX:** Several visual changes.  The Accounts view uses horizontal space better.  The Month-to-Month analysis view no longer includes the year on the first date.  ([#4MgmeJq9](https://trello.com/c/4MgmeJq9), [#5oypmRTm](https://trello.com/c/5oypmRTm), [#Ljy70cM6](https://trello.com/c/Ljy70cM6))
+
+- **FIX:** Rain tooltip no longer has faded cents. ([#TlvT3o2a](https://trello.com/c/TlvT3o2a))
+
+- **FIX:** When downloading an update, release notes stay visible. ([#N6ZbcQvk](https://trello.com/c/N6ZbcQvk))
+
 ## v0.36.0
 
 - **NEW:** Numbers are localized according to language now (i.e. in Portuguese and Spanish the decimal separator is now a comma) ([#0iXa6tJR](https://trello.com/c/0iXa6tJR))
