@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.38.1
+
+- **FIX:** Prevent NULL amounts in transactions. ([#FJHZHCxx](https://trello.com/c/FJHZHCxx))
+
 ## v0.38.0
 
 - **FIX:** Handle daylight saving time ([#9MfU7pAj](https://trello.com/c/9MfU7pAj))
