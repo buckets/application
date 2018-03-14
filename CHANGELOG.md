@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.38.0
+
+- **FIX:** Handle daylight saving time ([#9MfU7pAj](https://trello.com/c/9MfU7pAj))
+
 ## v0.37.0
 
 - **FIX:** Several visual changes.  The Accounts view uses horizontal space better.  The Month-to-Month analysis view no longer includes the year on the first date.  ([#4MgmeJq9](https://trello.com/c/4MgmeJq9), [#5oypmRTm](https://trello.com/c/5oypmRTm), [#Ljy70cM6](https://trello.com/c/Ljy70cM6))
