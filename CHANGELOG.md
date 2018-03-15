@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.38.2
+
+- **FIX:** Don't overwrite non-null account balances to fix daylight saving problem.
+
 ## v0.38.1
 
 - **FIX:** Prevent NULL amounts in transactions. ([#FJHZHCxx](https://trello.com/c/FJHZHCxx))
