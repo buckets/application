@@ -1,4 +1,24 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.39.0
+
+- **NEW:** It's now much easier to record transfers between accounts.  When creating a transaction, simply mark it as a transfer and choose the account the funds are coming from or going to.  ([#W1s6v7WU](https://trello.com/c/W1s6v7WU))
+
+- **NEW:** The Buckets tab is cleaner (less busy) through the following changes.  The balance of each bucket is now the first number.  "Out" and "Transfer" columns have been combined into a single "Activity" column.  When there is an amount in the "In/Out" field, the current and future balance no longer make the table expand horizontally. The heading labels are repeated for each bucket group.  Effective balance is no longer shown when in debt.  ([#VSy1vj99](https://trello.com/c/VSy1vj99), [#6T7u0kWO](https://trello.com/c/6T7u0kWO))
+
+- **NEW:** You can now categorize transactions as you enter them, instead of having to categorize them after adding them.
+
+- **NEW:** The Recurring Expenses analysis chart now remembers the time period you chose. ([#2yalBubk](https://trello.com/c/2yalBubk))
+
+- **NEW:** Names of translation contributors appear in the source file of each language.  ([#1s7TvSdi](https://trello.com/c/1s7TvSdi))
+
+- **FIX:** For labels with a bright yellow background, black text is now used instead of white.  In other words, you can read the words now :)
+
+- **FIX:** Simple categorization is preserved after editing transactions.  ([#L7jULmPb](https://trello.com/c/L7jULmPb))
+
+- **FIX:** Only list recently-opened files that still exist.  ([#OvGiy3pc](https://trello.com/c/OvGiy3pc))
+
+- **FIX:** Refunds/returns now add money to the 'Activity' column rather than the 'Rain' column on the Buckets view.  ([#zmXmsVbp](https://trello.com/c/zmXmsVbp))
+
 ## v0.38.2
 
 - **FIX:** Don't overwrite non-null account balances to fix daylight saving problem.
