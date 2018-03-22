@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.39.1
+
+- **FIX:** Fixed a bug in CSV importing ([#2KYzgBet](https://trello.com/c/2KYzgBet))
+
+- **FIX:** Sync time range alert is not correct.
+
 ## v0.39.0
 
 - **NEW:** It's now much easier to record transfers between accounts.  When creating a transaction, simply mark it as a transfer and choose the account the funds are coming from or going to.  ([#W1s6v7WU](https://trello.com/c/W1s6v7WU))
