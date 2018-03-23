@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.39.2
+
+- **FIX:** Fix white on white text in transaction dropdown on Windows ([#Cb24GGRR](https://trello.com/c/Cb24GGRR))
+
 ## v0.39.1
 
 - **FIX:** Fixed a bug in CSV importing ([#2KYzgBet](https://trello.com/c/2KYzgBet))
