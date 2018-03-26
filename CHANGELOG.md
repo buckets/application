@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.40.0
+
+- **NEW:** Added a 'Start Over' tool.  ([#gMedmoLD](https://trello.com/c/gMedmoLD))
+
+- **FIX:** Letters are no longer eaten when writing a note on *any* object.  ([#ZQa6alQo](https://trello.com/c/ZQa6alQo))
+
+- **FIX:** You can choose a number format independent of your language. ([#ZaP9MCUO](https://trello.com/c/ZaP9MCUO))
+
 ## v0.39.2
 
 - **FIX:** Fix white on white text in transaction dropdown on Windows ([#Cb24GGRR](https://trello.com/c/Cb24GGRR))
