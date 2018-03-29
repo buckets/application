@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.40.1
+
+- **FIX:** Let us check for updates again if an update fails to download.  ([#Qtufqzis](https://trello.com/c/Qtufqzis))
+
+- **FIX:** Fix YNAB4 import error for transactions with mixed-sign categorizations ([#KiDm6dZS](https://trello.com/c/KiDm6dZS))
+
 ## v0.40.0
 
 - **NEW:** Added a 'Start Over' tool.  ([#gMedmoLD](https://trello.com/c/gMedmoLD))
