@@ -1,4 +1,36 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.41.0
+
+- **NEW:** You can now click on a bucket's want to fill in the remaining amount.  ([#ZFU7DkdT](https://trello.com/c/ZFU7DkdT))
+
+- **NEW:** French translation now available!  Merci, Raoul de Limézy !
+
+- **NEW:** Loading screen is nicer ([#7q3euALq](https://trello.com/c/7q3euALq))
+
+- **NEW:** Accounts can now be designated as *Off Budget.*  Currently, it is of little use, but makes the way for tracking assets and debts (such as mortgages and investment accounts) over time.  ([#6Vo5DIEu](https://trello.com/c/6Vo5DIEu))
+
+- **NEW:** After importing from YNAB4, a list of transactions to review is now shown.  Also there's a progress bar.  ([#KS5dedMe](https://trello.com/c/KS5dedMe))
+
+- **FIX:** Now 'About Buckets' works consistently on macOS, Windows and Linux ([#Hvkf87aR](https://trello.com/c/Hvkf87aR))
+
+- **FIX:** Balance as of date listed in account detail view now lists the date of the latest transaction instead of the end of the month.  ([#hMSy6JbF](https://trello.com/c/hMSy6JbF))
+
+- **FIX:** A different icon is now used for the *clear-the-categories* button.  It was an X; now it's a circle with a line through it.  ([#Iz84zvni](https://trello.com/c/Iz84zvni))
+
+- **FIX:** Fixed bug where kicking a bucket would change the top right month.  ([#qTNqjNav](https://trello.com/c/qTNqjNav))
+
+- **FIX:** Safety switches (the ones that require to clicks to do the action) don't bleed now.  ([#1zvGUn99](https://trello.com/c/1zvGUn99))
+
+- **FIX:** When you create a transaction without a category, it won't flash a warning anymore ([#YwcStIKB](https://trello.com/c/YwcStIKB))
+
+- **FIX:** Transactions are sorted by date first, instead of account also.  This will make transfers that happen at the same time appear next to each other.  ([#D6Ftd0rZ](https://trello.com/c/D6Ftd0rZ))
+
+- **FIX:** Notes with just whitespace are considered empty now ([#RZBnnlKJ](https://trello.com/c/RZBnnlKJ))
+
+- Slimmed down and alphabetized translation files to make it easier for translators and to make fewer conflicts. ([#wMIaJ47X](https://trello.com/c/wMIaJ47X))
+
+- Upgraded internal libraries and platform. ([#hcyvkiIZ](https://trello.com/c/hcyvkiIZ), [#dwtG0GDO](https://trello.com/c/dwtG0GDO))
+
 ## v0.40.1
 
 - **FIX:** Let us check for updates again if an update fails to download.  ([#Qtufqzis](https://trello.com/c/Qtufqzis))
