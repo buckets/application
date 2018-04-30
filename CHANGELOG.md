@@ -1,4 +1,26 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.42.0
+
+- **NEW:** Transactions can now be marked as cleared or not. ([#172](https://github.com/buckets/application/issues/172))
+
+- **NEW:** CSV importing supports CSVs where the postive/negative amount is broken out into a column separate from the amount.  ([#185](https://github.com/buckets/application/issues/185))
+
+- **NEW:** Now translated into Nederlands!
+
+- **FIX:** Fixed CSV parsing bug with Amazon Reconiler ([#178](https://github.com/buckets/application/issues/178))
+
+- **FIX:** You can now import CSV files that don't have a header row ([#119](https://github.com/buckets/application/issues/119))
+
+- **FIX:** CSV import supports amounts that use commas for decimal points.  ([#184](https://github.com/buckets/application/issues/184))
+
+- **FIX:** Fix date picker problem with macOS High Sierra ([#112](https://github.com/buckets/application/issues/112))
+
+- **FIX:** Removed 'Chat' as an option when an error occurs.
+
+- **FIX:** Semicolon-delimited CSVs (so SSV?) are now supported.  ([#181](https://github.com/buckets/application/issues/181))
+
+- **FIX:** You can now set the timezone in Preferences in case Buckets detects your timezone incorrectly.
+
 ## v0.41.0
 
 - **NEW:** You can now click on a bucket's want to fill in the remaining amount.  ([#ZFU7DkdT](https://trello.com/c/ZFU7DkdT))
