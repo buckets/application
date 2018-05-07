@@ -1,4 +1,24 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.43.0 - 7 May 2018
+
+- **NEW:** You can now choose a currency symbol to be displayed with the top summary numbers.  Go to the new *Settings* tab (look on the bottom left corner) and type in your favorite symbol. ([#107](https://github.com/buckets/application/issues/107))
+
+- **FIX:** Fixed alignment on Buckets table headings.  ([#193](https://github.com/buckets/application/issues/193))
+
+- **FIX:** Fix CSV import bug ([#190](https://github.com/buckets/application/issues/190))
+
+- **FIX:** Dates are properly formatted according to your chosen locale again.  ([#186](https://github.com/buckets/application/issues/186))
+
+- **FIX:** "Save X by depositing Z/mo" buckets no longer keep wanting after the goal has been reached ([#192](https://github.com/buckets/application/issues/192))
+
+- **FIX:** When launching from the command line, look for custom BUCKETS_LANG environment variable instead of LANG.
+
+- **FIX:** Fix no-internet false positive error ([#195](https://github.com/buckets/application/issues/195))
+
+- **FIX:** The Recurring Expenses month slider is no longer impossible to use ([#188](https://github.com/buckets/application/issues/188))
+
+- **FIX:** Fix Starting over bug when you want to delete everything, including buckets ([#191](https://github.com/buckets/application/issues/191))
+
 ## v0.42.0
 
 - **NEW:** Transactions can now be marked as cleared or not. ([#172](https://github.com/buckets/application/issues/172))
