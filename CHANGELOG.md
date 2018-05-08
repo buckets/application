@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.43.1 - 8 May 2018
+
+- **FIX:** Fix bug preventing the remapping of CSV files ([#199](https://github.com/buckets/application/issues/199))
+
+- **FIX:** Fix for bug with CSV importing where numbers were multiplied by 100 because the chosen language's default number format was not honored. ([#200](https://github.com/buckets/application/issues/200))
+
 ## v0.43.0 - 7 May 2018
 
 - **NEW:** You can now choose a currency symbol to be displayed with the top summary numbers.  Go to the new *Settings* tab (look on the bottom left corner) and type in your favorite symbol. ([#107](https://github.com/buckets/application/issues/107))
