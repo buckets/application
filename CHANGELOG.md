@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.44.0 - 10 May 2018
+
+- **NEW:** Buckets is now signed for macOS and Windows!  This means you shouldn't get as many warnings when trying to install it.  ([#150](https://github.com/buckets/application/issues/150))
+
+- **FIX:** Indicate that you might have to download the new version manually ([#203](https://github.com/buckets/application/issues/203))
+
+- Switched out sqlite for sqlite3-offline ([#183](https://github.com/buckets/application/issues/183))
+
 ## v0.43.1 - 8 May 2018
 
 - **FIX:** Fix bug preventing the remapping of CSV files ([#199](https://github.com/buckets/application/issues/199))
