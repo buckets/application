@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.44.1 - 25 May 2018
+
+- **FIX:** Fix analysis reports so that they no longer include off-budget accounts.  There will be other reports for off-budget accounts.  ([#206](https://github.com/buckets/application/issues/206))
+
+- **FIX:** Handle non-unicode CSV files.  ([#202](https://github.com/buckets/application/issues/202))
+
+- **FIX:** Potential fix for update error on start on Ubuntu ([#207](https://github.com/buckets/application/issues/207))
+
 ## v0.44.0 - 10 May 2018
 
 - **NEW:** Buckets is now signed for macOS and Windows!  This means you shouldn't get as many warnings when trying to install it.  ([#150](https://github.com/buckets/application/issues/150))
