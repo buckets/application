@@ -1,4 +1,23 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.44.2 - 4 Jun 2018
+
+- **NEW:** When you create a new account, the account's details are shown ([#176](https://github.com/buckets/application/issues/176))
+
+- **FIX:** Fix the bug where a category is removed when editing a transaction in the account view.  ([#217](https://github.com/buckets/application/issues/217))
+
+- **FIX:** Exclude off-budget accounts from analysis ending balance field.  Don't worry, there will be more reports later that include off-budget accounts :) ([#220](https://github.com/buckets/application/issues/220))
+
+- **FIX:** [afcu.com-209 4cf27da] Fixed bank macro bug where a bank's short HTTP-only domain did not properly redirect to the full HTTPS domain.  ([#209](https://github.com/buckets/application/issues/209))
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+- **FIX:** You can now transfer to/from off-budget accounts when making transactions.  ([#213](https://github.com/buckets/application/issues/213))
+
+- **FIX:** Prevent accidentally opening the same file twice (as with a double click) from the starting file-chooser pane ([#211](https://github.com/buckets/application/issues/211))
+
+- **FIX:** You can now unlink accounts from import files so that the next time you import a file for that account, you will be prompted to choose which account the file belongs to.  ([#210](https://github.com/buckets/application/issues/210))
+
+- Internal refactorings to get ready for mobile app
+
 ## v0.44.1 - 25 May 2018
 
 - **FIX:** Fix analysis reports so that they no longer include off-budget accounts.  There will be other reports for off-budget accounts.  ([#206](https://github.com/buckets/application/issues/206))
