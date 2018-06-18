@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.45.0 - 18 Jun 2018
+
+- **NEW:** Added a preference for getting Beta releases of Buckets.
+
+- **FIX:** You can now negate values when importing from CSV files.  This allows you to handle banks that list both debits and credits as positive values.  ([#222](https://github.com/buckets/application/issues/222))
+
 ## v0.44.2 - 4 Jun 2018
 
 - **NEW:** When you create a new account, the account's details are shown ([#176](https://github.com/buckets/application/issues/176))
