@@ -1,4 +1,16 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.46.0 - 25 Jun 2018
+
+- **NEW:** Now available in Deutsch!
+
+- **FIX:** Added more verbose logging for Linux file read/write issues, including a message to instruct the user about how to possibly fix the problem. ([#224](https://github.com/buckets/application/issues/224))
+
+- **FIX:** Override number format set in Preferences is now honored ([#237](https://github.com/buckets/application/issues/237))
+
+- Massive code refactoring to get ready for the mobile app.
+
+- Added a little more context for translators.  ([#234](https://github.com/buckets/application/issues/234))
+
 ## v0.45.0 - 18 Jun 2018
 
 - **NEW:** Added a preference for getting Beta releases of Buckets.
