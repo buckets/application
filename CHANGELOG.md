@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.46.1 - 26 Jun 2018
+
+- **FIX:** Renamed bucket transaction "Misc" column to "Account" ([#245](https://github.com/buckets/application/issues/245))
+
+- **FIX:** Fixed bug that prevented removing categories while editing a transaction ([#239](https://github.com/buckets/application/issues/239))
+
 ## v0.46.0 - 25 Jun 2018
 
 - **NEW:** Now available in Deutsch!
