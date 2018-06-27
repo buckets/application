@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.46.2 - 27 Jun 2018
+
+- **FIX:** Fix missing locale bug ([#252](https://github.com/buckets/application/issues/252))
+
 ## v0.46.1 - 26 Jun 2018
 
 - **FIX:** Renamed bucket transaction "Misc" column to "Account" ([#245](https://github.com/buckets/application/issues/245))
