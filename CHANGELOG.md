@@ -1,4 +1,30 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.47.0 - 2 Jul 2018
+
+- **NEW:** Added a calculator for doing quick calculations.  ([#255](https://github.com/buckets/application/issues/255))
+
+- **NEW:** You can now see the cleared balance and uncleared total on individual accounts.  ([#194](https://github.com/buckets/application/issues/194))
+
+- **NEW:** You can now dismiss notifications if they are covering up some things you want to see.  ([#223](https://github.com/buckets/application/issues/223))
+
+- **NEW:** Pressing escape while focused on the Buckets In/Out field will clear the selected field now.  ([#241](https://github.com/buckets/application/issues/241))
+
+- **NEW:** Added a new 'Go To This Month' menu option and shortcut key.  ([#246](https://github.com/buckets/application/issues/246))
+
+- **NEW:** Individual account views now include the amount in/out for that account for the current month.  ([#216](https://github.com/buckets/application/issues/216))
+
+- **NEW:** Now available in Polski, thanks to Piotr Bielaska!
+
+- **FIX:** Amazon reconciliation is much easier to use now.  ([#124](https://github.com/buckets/application/issues/124))
+
+- **FIX:** Fixed bug where budget failed to load after error. ([#253](https://github.com/buckets/application/issues/253))
+
+- **FIX:** Fixed the situation where sometimes the update available window would get covered up by the last opened budget window.  ([#177](https://github.com/buckets/application/issues/177))
+
+- It's now a little more clear how (Budget Specific) Settings differ from (Application) Preferences.
+
+- Clearly indicated to translators which instances of *Buckets* refers to the application rather than buckets within the program.  ([#173](https://github.com/buckets/application/issues/173))
+
 ## v0.46.2 - 27 Jun 2018
 
 - **FIX:** Fix missing locale bug ([#252](https://github.com/buckets/application/issues/252))
