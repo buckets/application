@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.48.0 - 9 Jul 2018
+
+- **NEW:** You can now kick buckets right from the buckets list view. ([#225](https://github.com/buckets/application/issues/225))
+
+- **FIX:** Possible duplicate transaction detection is now limited to transactions that have nearby dates and is expanded to look for transactions in adjacent months.  ([#261](https://github.com/buckets/application/issues/261))
+
 ## v0.47.0 - 2 Jul 2018
 
 - **NEW:** Added a calculator for doing quick calculations.  ([#255](https://github.com/buckets/application/issues/255))
