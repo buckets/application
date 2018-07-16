@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.49.0 - 16 Jul 2018
+
+- **FIX:** Added DD/MMM/YY as date format for CSV importing.  Also made it so you can type in whatever format you want. ([#263](https://github.com/buckets/application/issues/263))
+
+- **FIX:** Fixed a bug that would clear a transaction's income/transfer designation if you changed the amount. ([#265](https://github.com/buckets/application/issues/265))
+
 ## v0.48.0 - 9 Jul 2018
 
 - **NEW:** You can now kick buckets right from the buckets list view. ([#225](https://github.com/buckets/application/issues/225))
