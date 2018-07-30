@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.50.0 - 30 Jul 2018
+
+- **NEW:** Paying off credit cards and some other debt is now easier with the addition of Debt accounts.  ([#277](https://github.com/buckets/application/issues/277))
+
+- More internal refactoring to prepare for mobile apps
+
 ## v0.49.0 - 16 Jul 2018
 
 - **FIX:** Added DD/MMM/YY as date format for CSV importing.  Also made it so you can type in whatever format you want. ([#263](https://github.com/buckets/application/issues/263))
