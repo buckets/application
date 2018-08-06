@@ -1,4 +1,22 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.51.0 - 6 Aug 2018
+
+- **NEW:** Added some Net Wealth charts ([#171](https://github.com/buckets/application/issues/171))
+
+- **NEW:** When transactions are created for a month other than the one you're looking at, a notification will pop up to let you know that it was successfully created.  ([#283](https://github.com/buckets/application/issues/283))
+
+- **NEW:** Added shortcut keys for going to next and previous month.  Also included them in the Budget, Go To... menu. ([#266](https://github.com/buckets/application/issues/266))
+
+- **NEW:** Using an old version of Buckets to open a newer budget file displays a warning now.  ([#280](https://github.com/buckets/application/issues/280))
+
+- **FIX:** Restored Buckets License bucket for the trial version.  It accidentally got removed a few versions back.
+
+- **FIX:** Fixed a bug so that now, when you change a transaction's date to another month, the transaction will disappear from the current month as it should.  ([#275](https://github.com/buckets/application/issues/275))
+
+- **FIX:** Fixed bug where Linux Beta installations would offer to downgrade to latest non-beta version.  ([#279](https://github.com/buckets/application/issues/279))
+
+- **FIX:** Fewer characters are swallowed when searching on the page. ([#270](https://github.com/buckets/application/issues/270))
+
 ## v0.50.0 - 30 Jul 2018
 
 - **NEW:** Paying off credit cards and some other debt is now easier with the addition of Debt accounts.  ([#277](https://github.com/buckets/application/issues/277))
