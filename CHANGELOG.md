@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.51.1 - 8 Aug 2018
+
+- **FIX:** Pressing Enter while editing bucket details will close the details. ([#235](https://github.com/buckets/application/issues/235))
+
+- **FIX:** Fix false warning about using an older version of buckets on a newer budget file. ([#280](https://github.com/buckets/application/issues/280))
+
+- **FIX:** You can now import transactions for off-budget accounts. ([#284](https://github.com/buckets/application/issues/284))
+
 ## v0.51.0 - 6 Aug 2018
 
 - **NEW:** Added some Net Wealth charts ([#171](https://github.com/buckets/application/issues/171))
