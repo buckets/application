@@ -1,4 +1,20 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.52.0 - 17 Sep 2018
+
+- **FIX:** Attempted fix at unreproducible account deletion error. ([#301](https://github.com/buckets/application/issues/301))
+
+- **FIX:** Attempted fix of goal date inconsistency ([#288](https://github.com/buckets/application/issues/288))
+
+- **FIX:** Errors related to entering licenses are better logged now.  ([#229](https://github.com/buckets/application/issues/229))
+
+- **FIX:** OFX files with multiple accounts inside can now be imported. ([#302](https://github.com/buckets/application/issues/302))
+
+- **FIX:** Make sure newly-created budget files end with the correct extension. ([#304](https://github.com/buckets/application/issues/304))
+
+- **FIX:** Fixed bug where tooltip would flicker at the edge of the screenstatus ([#299](https://github.com/buckets/application/issues/299))
+
+- More internal refactoring for mobile apps.
+
 ## v0.51.1 - 8 Aug 2018
 
 - **FIX:** Pressing Enter while editing bucket details will close the details. ([#235](https://github.com/buckets/application/issues/235))
