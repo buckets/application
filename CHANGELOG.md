@@ -1,5 +1,13 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
-## v0.52.0 - 17 Sep 2018
+## v0.52.1 - 26 Nov 2018
+
+- **FIX:** Fixed a bug where calculator wouldn't work if you had whitespace ([#313](https://github.com/buckets/application/issues/313))
+
+- **FIX:** Dutch translation corrections
+
+- **FIX:** French translation corrections
+
+## v0.52.0 - 2018-09-17
 
 - **FIX:** Attempted fix at unreproducible account deletion error. ([#301](https://github.com/buckets/application/issues/301))
 
@@ -15,7 +23,7 @@
 
 - More internal refactoring for mobile apps.
 
-## v0.51.1 - 8 Aug 2018
+## v0.51.1 - 2018-08-08
 
 - **FIX:** Pressing Enter while editing bucket details will close the details. ([#235](https://github.com/buckets/application/issues/235))
 
@@ -23,7 +31,7 @@
 
 - **FIX:** You can now import transactions for off-budget accounts. ([#284](https://github.com/buckets/application/issues/284))
 
-## v0.51.0 - 6 Aug 2018
+## v0.51.0 - 2018-08-06
 
 - **NEW:** Added some Net Wealth charts ([#171](https://github.com/buckets/application/issues/171))
 
@@ -41,25 +49,25 @@
 
 - **FIX:** Fewer characters are swallowed when searching on the page. ([#270](https://github.com/buckets/application/issues/270))
 
-## v0.50.0 - 30 Jul 2018
+## v0.50.0 - 2018-07-30
 
 - **NEW:** Paying off credit cards and some other debt is now easier with the addition of Debt accounts.  ([#277](https://github.com/buckets/application/issues/277))
 
 - More internal refactoring to prepare for mobile apps
 
-## v0.49.0 - 16 Jul 2018
+## v0.49.0 - 2018-07-16
 
 - **FIX:** Added DD/MMM/YY as date format for CSV importing.  Also made it so you can type in whatever format you want. ([#263](https://github.com/buckets/application/issues/263))
 
 - **FIX:** Fixed a bug that would clear a transaction's income/transfer designation if you changed the amount. ([#265](https://github.com/buckets/application/issues/265))
 
-## v0.48.0 - 9 Jul 2018
+## v0.48.0 - 2018-07-09
 
 - **NEW:** You can now kick buckets right from the buckets list view. ([#225](https://github.com/buckets/application/issues/225))
 
 - **FIX:** Possible duplicate transaction detection is now limited to transactions that have nearby dates and is expanded to look for transactions in adjacent months.  ([#261](https://github.com/buckets/application/issues/261))
 
-## v0.47.0 - 2 Jul 2018
+## v0.47.0 - 2018-07-02
 
 - **NEW:** Added a calculator for doing quick calculations.  ([#255](https://github.com/buckets/application/issues/255))
 
@@ -85,17 +93,17 @@
 
 - Clearly indicated to translators which instances of *Buckets* refers to the application rather than buckets within the program.  ([#173](https://github.com/buckets/application/issues/173))
 
-## v0.46.2 - 27 Jun 2018
+## v0.46.2 - 2018-06-27
 
 - **FIX:** Fix missing locale bug ([#252](https://github.com/buckets/application/issues/252))
 
-## v0.46.1 - 26 Jun 2018
+## v0.46.1 - 2018-06-26
 
 - **FIX:** Renamed bucket transaction "Misc" column to "Account" ([#245](https://github.com/buckets/application/issues/245))
 
 - **FIX:** Fixed bug that prevented removing categories while editing a transaction ([#239](https://github.com/buckets/application/issues/239))
 
-## v0.46.0 - 25 Jun 2018
+## v0.46.0 - 2018-06-25
 
 - **NEW:** Now available in Deutsch!
 
@@ -107,13 +115,13 @@
 
 - Added a little more context for translators.  ([#234](https://github.com/buckets/application/issues/234))
 
-## v0.45.0 - 18 Jun 2018
+## v0.45.0 - 2018-06-18
 
 - **NEW:** Added a preference for getting Beta releases of Buckets.
 
 - **FIX:** You can now negate values when importing from CSV files.  This allows you to handle banks that list both debits and credits as positive values.  ([#222](https://github.com/buckets/application/issues/222))
 
-## v0.44.2 - 4 Jun 2018
+## v0.44.2 - 2018-06-04
 
 - **NEW:** When you create a new account, the account's details are shown ([#176](https://github.com/buckets/application/issues/176))
 
@@ -132,7 +140,7 @@
 
 - Internal refactorings to get ready for mobile app
 
-## v0.44.1 - 25 May 2018
+## v0.44.1 - 2018-05-25
 
 - **FIX:** Fix analysis reports so that they no longer include off-budget accounts.  There will be other reports for off-budget accounts.  ([#206](https://github.com/buckets/application/issues/206))
 
@@ -140,7 +148,7 @@
 
 - **FIX:** Potential fix for update error on start on Ubuntu ([#207](https://github.com/buckets/application/issues/207))
 
-## v0.44.0 - 10 May 2018
+## v0.44.0 - 2018-05-10
 
 - **NEW:** Buckets is now signed for macOS and Windows!  This means you shouldn't get as many warnings when trying to install it.  ([#150](https://github.com/buckets/application/issues/150))
 
@@ -148,13 +156,13 @@
 
 - Switched out sqlite for sqlite3-offline ([#183](https://github.com/buckets/application/issues/183))
 
-## v0.43.1 - 8 May 2018
+## v0.43.1 - 2018-05-08
 
 - **FIX:** Fix bug preventing the remapping of CSV files ([#199](https://github.com/buckets/application/issues/199))
 
 - **FIX:** Fix for bug with CSV importing where numbers were multiplied by 100 because the chosen language's default number format was not honored. ([#200](https://github.com/buckets/application/issues/200))
 
-## v0.43.0 - 7 May 2018
+## v0.43.0 - 2018-05-07
 
 - **NEW:** You can now choose a currency symbol to be displayed with the top summary numbers.  Go to the new *Settings* tab (look on the bottom left corner) and type in your favorite symbol. ([#107](https://github.com/buckets/application/issues/107))
 
@@ -174,7 +182,7 @@
 
 - **FIX:** Fix Starting over bug when you want to delete everything, including buckets ([#191](https://github.com/buckets/application/issues/191))
 
-## v0.42.0
+## v0.42.0 - 2018-04-30
 
 - **NEW:** Transactions can now be marked as cleared or not. ([#172](https://github.com/buckets/application/issues/172))
 
@@ -196,7 +204,7 @@
 
 - **FIX:** You can now set the timezone in Preferences in case Buckets detects your timezone incorrectly.
 
-## v0.41.0
+## v0.41.0 - 2018-04-24
 
 - **NEW:** You can now click on a bucket's want to fill in the remaining amount.  ([#ZFU7DkdT](https://trello.com/c/ZFU7DkdT))
 
@@ -228,13 +236,13 @@
 
 - Upgraded internal libraries and platform. ([#hcyvkiIZ](https://trello.com/c/hcyvkiIZ), [#dwtG0GDO](https://trello.com/c/dwtG0GDO))
 
-## v0.40.1
+## v0.40.1 - 2018-03-29
 
 - **FIX:** Let us check for updates again if an update fails to download.  ([#Qtufqzis](https://trello.com/c/Qtufqzis))
 
 - **FIX:** Fix YNAB4 import error for transactions with mixed-sign categorizations ([#KiDm6dZS](https://trello.com/c/KiDm6dZS))
 
-## v0.40.0
+## v0.40.0 - 2018-03-26
 
 - **NEW:** Added a 'Start Over' tool.  ([#gMedmoLD](https://trello.com/c/gMedmoLD))
 
@@ -242,17 +250,17 @@
 
 - **FIX:** You can choose a number format independent of your language. ([#ZaP9MCUO](https://trello.com/c/ZaP9MCUO))
 
-## v0.39.2
+## v0.39.2 - 2018-03-23
 
 - **FIX:** Fix white on white text in transaction dropdown on Windows ([#Cb24GGRR](https://trello.com/c/Cb24GGRR))
 
-## v0.39.1
+## v0.39.1 - 2018-03-22
 
 - **FIX:** Fixed a bug in CSV importing ([#2KYzgBet](https://trello.com/c/2KYzgBet))
 
 - **FIX:** Sync time range alert is not correct.
 
-## v0.39.0
+## v0.39.0 - 2018-03-21
 
 - **NEW:** It's now much easier to record transfers between accounts.  When creating a transaction, simply mark it as a transfer and choose the account the funds are coming from or going to.  ([#W1s6v7WU](https://trello.com/c/W1s6v7WU))
 
@@ -272,19 +280,19 @@
 
 - **FIX:** Refunds/returns now add money to the 'Activity' column rather than the 'Rain' column on the Buckets view.  ([#zmXmsVbp](https://trello.com/c/zmXmsVbp))
 
-## v0.38.2
+## v0.38.2 - 2018-03-15
 
 - **FIX:** Don't overwrite non-null account balances to fix daylight saving problem.
 
-## v0.38.1
+## v0.38.1 - 2018-03-14
 
 - **FIX:** Prevent NULL amounts in transactions. ([#FJHZHCxx](https://trello.com/c/FJHZHCxx))
 
-## v0.38.0
+## v0.38.0 - 2018-03-14
 
 - **FIX:** Handle daylight saving time ([#9MfU7pAj](https://trello.com/c/9MfU7pAj))
 
-## v0.37.0
+## v0.37.0 - 2018-03-12
 
 - **FIX:** Several visual changes.  The Accounts view uses horizontal space better.  The Month-to-Month analysis view no longer includes the year on the first date.  ([#4MgmeJq9](https://trello.com/c/4MgmeJq9), [#5oypmRTm](https://trello.com/c/5oypmRTm), [#Ljy70cM6](https://trello.com/c/Ljy70cM6))
 
@@ -292,7 +300,7 @@
 
 - **FIX:** When downloading an update, release notes stay visible. ([#N6ZbcQvk](https://trello.com/c/N6ZbcQvk))
 
-## v0.36.0
+## v0.36.0 - 2018-03-06
 
 - **NEW:** Numbers are localized according to language now (i.e. in Portuguese and Spanish the decimal separator is now a comma) ([#0iXa6tJR](https://trello.com/c/0iXa6tJR))
 
@@ -306,11 +314,11 @@
 
 - **FIX:** If there's no internet connection, an error about not being able to update is no longer displayed on start ([#hjnugHpN](https://trello.com/c/hjnugHpN))
 
-## v0.35.1
+## v0.35.1 - 2018-02-28
 
 - **FIX:** Another fix for another kind of YNAB4 import failure.  ([#MpmFZutK](https://trello.com/c/MpmFZutK))
 
-## v0.35.0
+## v0.35.0 - 2018-02-28
 
 - **NEW:** Added *Start with a template* button for getting started with Buckets.  ([#2kWWcMGa](https://trello.com/c/2kWWcMGa))
 
@@ -318,7 +326,7 @@
 
 - **FIX:** Fixed a bug when importing YNAB4 files with transactions that are split, but not split into categories ([#rJgT119e](https://trello.com/c/rJgT119e))
 
-## v0.34.0
+## v0.34.0 - 2018-02-23
 
 - **NEW:** Replaced confusing line and dot chart with a bar chart of historical expenses in Analysis > Recurring Expenses section.  Also, now you can choose the time period being shown.  ([#cY5uD7Y5](https://trello.com/c/cY5uD7Y5))
 
@@ -340,7 +348,7 @@
 
 - Now only the language you are using is loaded (resulting in slightly faster load times)
 
-## v0.33.0
+## v0.33.0 - 2018-02-08
 
 - **NEW:** You can now delete bucket groups ([#02VRaU99](https://trello.com/c/02VRaU99))
 
@@ -362,7 +370,7 @@
 
 - **FIX:** Include more verbose debugging when YNAB4 import fails.
 
-## v0.32.0
+## v0.32.0 - 2018-02-02
 
 - **NEW:** You can delete bucket transactions (Issue [#q2PpU2iV](https://trello.com/c/q2PpU2iV))
 
@@ -378,7 +386,7 @@
 
 - **FIX:** Posted date of newly created transactions will now always be (by default) in the month you are looking at.  ([#LauMJXLI](https://trello.com/c/LauMJXLI))
 
-## v0.31.2
+## v0.31.2 - 2018-01-30
 
 - **FIX:** Fixed *Used in future* to not include kicked buckets.
 
@@ -386,11 +394,11 @@
 
 - Moved to Trello for issue/bug tracking ([#JeaRIFN9](https://trello.com/c/JeaRIFN9))
 
-## v0.31.1
+## v0.31.1 - 2018-01-29
 
 - **FIX:** Fix error in want-to-buy message
 
-## v0.31.0
+## v0.31.0 - 2018-01-29
 
 - **NEW:** Added a transaction export tool.  (Issue [#28](https://github.com/buckets/application/issues/28))
 
@@ -400,7 +408,7 @@
 
 - **FIX:** Another attempt at the off by one problem.  (Issue [#40](https://github.com/buckets/application/issues/40))
 
-## v0.30.0
+## v0.30.0 - 2018-01-25
 
 - **NEW:** Date format is now suggested when importing from CSV
 
@@ -426,23 +434,23 @@
 
 - The Guide mentions that it's a work in progress now.  (Issue [#48](https://github.com/buckets/application/issues/48))
 
-## v0.29.0
+## v0.29.0 - 2018-01-22
 
 - **NEW:** Added a preference to disable money animations
 
 - **NEW:** CSV importing is now supported.  (Issue [#5](https://github.com/buckets/application/issues/5))
 
-## v0.28.0
+## v0.28.0 - 2018-01-19
 
 - **NEW:** Now there's a way to submit bugs from within Buckets. (Issue [#43](https://github.com/buckets/application/issues/43))
 
-### v0.27.1
+## v0.27.1 - 2018-01-18
 
 - **NEW:** Added some options in the Help menu to allow for more verbose log reports.
 
 - **FIX:** Fix some database schema issues.
 
-## v0.27.0
+## v0.27.0 - 2018-01-17
 
 - **FIX:** Check for updates, and version information is now available for Windows and Linux users.  (Issue [#43](https://github.com/buckets/application/issues/43))
 
@@ -450,19 +458,19 @@
 
 - **FIX:** Make update window not be so small (especially on Windows) (Issue [#45](https://github.com/buckets/application/issues/45))
 
-## v0.26.0
+## v0.26.0 - 2018-01-17
 
 - **NEW:** Added Amazon reconciliation tool.  (Issue [#33](https://github.com/buckets/application/issues/33))
 
 - **FIX:** Database migrations are less flakey now.
 
-### v0.25.1
+## v0.25.1 - 2018-01-15
 
 - **FIX:** Hopefully fix issue [#39](https://github.com/buckets/application/issues/39) so that importing from YNAB4 works.
 
 - **FIX:** Make month selector more resilient to different timezones.  (Issue [#40](https://github.com/buckets/application/issues/40))
 
-## v0.25.0
+## v0.25.0 - 2018-01-15
 
 - **NEW:** Numbers in most tables are now always dollar-aligned with faded cents when it's an even dollar.
 
@@ -484,7 +492,7 @@
 
 - **FIX:** On the Buckets page, the *New bucket* button does not make the graph icon cell stretch anymore.
 
-## v0.24.0
+## v0.24.0 - 2018-01-08
 
 - **FIX:** You can no longer make 0-amount bucket transactions (Issue [#22](https://github.com/buckets/application/issues/22))
 
@@ -494,7 +502,7 @@
 
 - NEW: Accounts can now be closed, and you can shoot yourself in the foot by completely deleting accounts and all linked transactions.  You're welcome.  (Issue [#2](https://github.com/buckets/application/issues/2))
 
-## v0.23.0
+## v0.23.0 - 2018-01-05
 
 - **FIX:** Account balance table aligns balance to the right.
 
@@ -506,21 +514,21 @@
 
 - NEW: Under *Analysis* the *Regular Expenses* section includes helpful number line charts and groups buckets according to whether expenses appear monthly v. yearly (or somewhat yearly) and groups them by relative budgeted amount.  In short, it's prettier :)
 
-### v0.22.1
+## v0.22.1 - 2018-01-02
 
 - **FIX:** Fix [issue #8](https://github.com/buckets/application/issues/8) by allowing users to select directories and files for import
 
-## v0.22.0
+## v0.22.0 - 2017-12-29
 
 - NEW: Added first (experimental) version of creating macros to download transaction data from banks automatically.  (Not yet translated into Spanish).
 
-## v0.21.0
+## v0.21.0 - 2017-11-17
 
 - **FIX:** Improved the explanation of what rain is
 
 - NEW: Switch from bucketsisbetter.com to budgetwithbuckets.com
 
-## v0.20.0
+## v0.20.0 - 2017-11-06
 
 - **FIX:** Light grey on charts is now less light and more visible
 
@@ -532,7 +540,7 @@
 
 - NEW: Buckets can now import You Need a Budget (YNAB) v4 budget files.
 
-## v0.19.0
+## v0.19.0 - 2017-11-03
 
 - **FIX:** Translate the preferences page
 
@@ -546,13 +554,13 @@
 
 - NEW: Buckets is now available in Spanish!
 
-## v0.17.0
+## v0.17.0 - 2017-09-12
 
 - **FIX:** Fixed a bug that prevented actually linking SimpleFIN accounts
 
 - NEW: Added better logging for times where there are silent errors
 
-## v0.16.0
+## v0.16.0 - 2017-09-01
 
 - **FIX:** Got rid of scary balance-mismatch warnings that weren't actually actionable.  And a better explanation of what mismatches mean is included.
 
@@ -620,4 +628,5 @@
 - NEW: Table rows are now highlighted when you hover over them
 
 - NEW: You can now import OFX/QFX files
+
 
