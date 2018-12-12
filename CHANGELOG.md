@@ -1,4 +1,22 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.53.0 - 12 Dec 2018
+
+- **NEW:** Accounts and balances can now optionally be shown in the side bar if you want.  Use the per-budget settings page to toggle.  ([#99](https://github.com/buckets/application/issues/99))
+
+- **NEW:** Total Want is now shown for each bucket group.  ([#274](https://github.com/buckets/application/issues/274))
+
+- **NEW:** This change might annoy you at first, but once you get used to it, you'll like it :)  When entering transactions, the amount now defaults to a **negative** amount since most transactions are expenses.  You can enter positive amounts by clicking the big *minus* button or by entering a negative number.  ([#307](https://github.com/buckets/application/issues/307))
+
+- **NEW:** Money inputs now stay the same width even when doing math inside of them.  Computed values are displayed in a floating tag above the input rather than to the side.
+
+- **FIX:** Fix CSV import error when CSV contains blank header cells.  ([#316](https://github.com/buckets/application/issues/316))
+
+- **FIX:** Top bar expenses are no longer red so that red is reserved for problem-like situations.  ([#291](https://github.com/buckets/application/issues/291))
+
+- **FIX:** Clicking account names now opens up the account details rather than editing the account name.  You can still edit account names by clicking on the name in the details pane.  ([#244](https://github.com/buckets/application/issues/244))
+
+- **FIX:** When importing from YNAB4, you can choose the YNAB4 file or as a convenience to users, any file inside it ([#318](https://github.com/buckets/application/issues/318))
+
 ## v0.52.1 - 26 Nov 2018
 
 - **FIX:** Fixed a bug where calculator wouldn't work if you had whitespace ([#313](https://github.com/buckets/application/issues/313))
