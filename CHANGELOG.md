@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.53.1 - 13 Dec 2018
+
+- **FIX:** Fix erroneous SignMismatch error ([#323](https://github.com/buckets/application/issues/323))
+
 ## v0.53.0 - 12 Dec 2018
 
 - **NEW:** Accounts and balances can now optionally be shown in the side bar if you want.  Use the per-budget settings page to toggle.  ([#99](https://github.com/buckets/application/issues/99))
