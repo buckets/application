@@ -1,9 +1,9 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
-## v0.53.1 - 13 Dec 2018
+## v0.53.1 - 2018-12-13
 
 - **FIX:** Fix erroneous SignMismatch error ([#323](https://github.com/buckets/application/issues/323))
 
-## v0.53.0 - 12 Dec 2018
+## v0.53.0 - 2018-12-12
 
 - **NEW:** Accounts and balances can now optionally be shown in the side bar if you want.  Use the per-budget settings page to toggle.  ([#99](https://github.com/buckets/application/issues/99))
 
@@ -21,7 +21,7 @@
 
 - **FIX:** When importing from YNAB4, you can choose the YNAB4 file or as a convenience to users, any file inside it ([#318](https://github.com/buckets/application/issues/318))
 
-## v0.52.1 - 26 Nov 2018
+## v0.52.1 - 2018-11-26
 
 - **FIX:** Fixed a bug where calculator wouldn't work if you had whitespace ([#313](https://github.com/buckets/application/issues/313))
 
