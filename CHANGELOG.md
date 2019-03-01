@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.54.0 - 2019-02-28
+
+- **NEW:** Removed Beta preference (since there's now a separate Buckets Beta application)
+
+- **NEW:** Your email address is remembered when you report a bug (so you don't have to enter each time you report a bug).
+
 ## v0.53.1 - 2018-12-13
 
 - **FIX:** Fix erroneous SignMismatch error ([#323](https://github.com/buckets/application/issues/323))
