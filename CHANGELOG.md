@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.54.1 - 2019-03-09
+
+- **FIX:** Fix Windows 64-bit installation
+
 ## v0.54.0 - 2019-02-28
 
 - **NEW:** Removed Beta preference (since there's now a separate Buckets Beta application)
