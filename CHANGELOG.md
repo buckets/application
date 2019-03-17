@@ -1,4 +1,18 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.55.0 - 2019-03-16
+
+- **NEW:** Made internal changes to allow for portable Windows versions of Buckets to work ([#292](https://github.com/buckets/application/issues/292))
+
+- **FIX:** Debt account payment buckets now correctly show up in the transaction categorization dropdown ([#368](https://github.com/buckets/application/issues/368))
+
+- **FIX:** Fix Uncaught TypeError for old debt payment buckets ([#367](https://github.com/buckets/application/issues/367))
+
+- **FIX:** Fixed bug that prevented importing GnuCash OFX files ([#332](https://github.com/buckets/application/issues/332))
+
+- **FIX:** You no longer have to switch between importing CSV files or QFX/OFX ([#342](https://github.com/buckets/application/issues/342))
+
+- **FIX:** OFX files which lack unique transaction ids can now be imported ([#336](https://github.com/buckets/application/issues/336))
+
 ## v0.54.1 - 2019-03-09
 
 - **FIX:** Fix Windows 64-bit installation
