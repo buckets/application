@@ -1,4 +1,8 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.55.1 - 2019-03-26
+
+- **FIX:** Fixed bug with want values not showing up ([#377](https://github.com/buckets/application/issues/377))
+
 ## v0.55.0 - 2019-03-16
 
 - **NEW:** Made internal changes to allow for portable Windows versions of Buckets to work ([#292](https://github.com/buckets/application/issues/292))
