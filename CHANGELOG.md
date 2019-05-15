@@ -1,4 +1,22 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.55.2 - 2019-05-15
+
+- **NEW:** Upgraded font to better support Cyrillic characters ([#381](https://github.com/buckets/application/issues/381))
+
+- **FIX:** Search box now appears on top of everything, including faint cents ([#356](https://github.com/buckets/application/issues/356))
+
+- **FIX:** Fixed bug where Linux Beta version would offer to update to latest non-Beta version ([#383](https://github.com/buckets/application/issues/383))
+
+- **FIX:** Long numbers no longer split across lines.  ([#389](https://github.com/buckets/application/issues/389))
+
+- **FIX:** When you have many accounts showing in the left navigation bar, you can now scroll down to see all nagivation items.  ([#380](https://github.com/buckets/application/issues/380))
+
+- **FIX:** Added more logging for unhandled errors
+
+- **FIX:** Fixed a bug in the *Want* for *Save X by Y date* buckets where the amount would change incorrectly after depositing an amount during a month.  ([#346](https://github.com/buckets/application/issues/346))
+
+- **FIX:** Fixed error during some YNAB4 imports. ([#392](https://github.com/buckets/application/issues/392))
+
 ## v0.55.1 - 2019-03-26
 
 - **FIX:** Fixed bug with want values not showing up ([#377](https://github.com/buckets/application/issues/377))
