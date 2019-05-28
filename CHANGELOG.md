@@ -1,4 +1,18 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.55.3 - 2019-05-27
+
+- **FIX:** Fixed bug that was labelling Income as Debt when entering transactions.  ([#390](https://github.com/buckets/application/issues/390))
+
+- **FIX:** Sidebar calculator now correctly honors chosen number format. ([#398](https://github.com/buckets/application/issues/398))
+
+- **FIX:** Fixed it so that clicking on the want bubble doesn't fill in the in/out amount so as to prevent the tooltip from staying open annoyingly.  ([#395](https://github.com/buckets/application/issues/395))
+
+- **FIX:** Fixed it so that when entering a transfer, the +/- toggle will correctly toggle between Transfer From/To.  ([#348](https://github.com/buckets/application/issues/348))
+
+- **FIX:** Importing from YNAB4 no longer appears to hang (though it is still a little choppy).  ([#399](https://github.com/buckets/application/issues/399))
+
+- **FIX:** Fixed bug where YNAB4 import multiplied numbers by 100 ([#387](https://github.com/buckets/application/issues/387))
+
 ## v0.55.2 - 2019-05-15
 
 - **NEW:** Upgraded font to better support Cyrillic characters ([#381](https://github.com/buckets/application/issues/381))
