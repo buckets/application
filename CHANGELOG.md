@@ -1,4 +1,28 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.55.4 - 2019-06-11
+
+- **NEW:** Added keyboard shortcuts for going forward and back a year.
+
+- **FIX:** Year-to-Year and Month-to-Month analysis charts now clearly indicate the period being averaged and totaled. ([#343](https://github.com/buckets/application/issues/343))
+
+- **FIX:** Analysis chart dots are finally lined up ([#158](https://github.com/buckets/application/issues/158))
+
+- **FIX:** Clicking on a bucket's *Want* column will no longer try to remove money from a bucket that has been overfilled.  ([#396](https://github.com/buckets/application/issues/396))
+
+- **FIX:** Daylight savings time no longer confuses the goal date calculations. ([#288](https://github.com/buckets/application/issues/288))
+
+- **FIX:** When searching on the page for something, the find next/find prev buttons now work ([#353](https://github.com/buckets/application/issues/353))
+
+- **FIX:** Guide is reachable again on Windows/Linux ([#402](https://github.com/buckets/application/issues/402))
+
+- **FIX:** You can now access invalid years (e.g. 200 AD) to fix mistakenly added transactions. ([#400](https://github.com/buckets/application/issues/400))
+
+- **FIX:** The month selector will now show even if the content below it is very wide.  ([#257](https://github.com/buckets/application/issues/257))
+
+- **FIX:** Off-budget transactions no longer show up in analysis charts ([#397](https://github.com/buckets/application/issues/397), [#296](https://github.com/buckets/application/issues/296))
+
+- **FIX:** When entering transfers, the same date is now used for both transactions.  ([#391](https://github.com/buckets/application/issues/391))
+
 ## v0.55.3 - 2019-05-27
 
 - **FIX:** Fixed bug that was labelling Income as Debt when entering transactions.  ([#390](https://github.com/buckets/application/issues/390))
