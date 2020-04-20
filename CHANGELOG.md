@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.56.0 - 2020-04-20
+
+- **NEW:** Buckets is now available in Italiano!  Grazie!
+
+- **NEW:** Various translation additions/changes for Polski, Deutsch and Français.
+
+- **FIX:** Guide navigation in Windows fixed ([#452](https://github.com/buckets/application/issues/452))
+
 ## v0.55.4 - 2019-06-11
 
 - **NEW:** Added keyboard shortcuts for going forward and back a year.
