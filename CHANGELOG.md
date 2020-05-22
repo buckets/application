@@ -1,4 +1,18 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.56.1 - 2020-05-21
+
+- **FIX:** Fix random, discrepency between uncategorized transaction count and the transaction badge.  ([#453](https://github.com/buckets/application/issues/453), [#454](https://github.com/buckets/application/issues/454))
+
+- **FIX:** No more security error on macOS Catalina ([#428](https://github.com/buckets/application/issues/428))
+
+- **FIX:** Fixed OFX import error when accounts have no name ([#386](https://github.com/buckets/application/issues/386))
+
+- **FIX:** Fixed various TypeErrors ([#458](https://github.com/buckets/application/issues/458), [#414](https://github.com/buckets/application/issues/414), [#413](https://github.com/buckets/application/issues/413), [#461](https://github.com/buckets/application/issues/461))
+
+- **FIX:** Fixed error when reopening the same budget file without quitting ([#451](https://github.com/buckets/application/issues/451))
+
+- **FIX:** Undoing of large actions now works ([#450](https://github.com/buckets/application/issues/450))
+
 ## v0.56.0 - 2020-04-20
 
 - **NEW:** Buckets is now available in Italiano!  Grazie!
