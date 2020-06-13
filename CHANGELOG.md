@@ -1,4 +1,18 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.56.2 - 2020-06-12
+
+- **FIX:** Turned a silent crash into a reported crash ([#464](https://github.com/buckets/application/issues/464))
+
+- **FIX:** Fix date-formatting bug that caused crash ([#468](https://github.com/buckets/application/issues/468))
+
+- **FIX:** CSV importing with separate "sign" column works again ([#442](https://github.com/buckets/application/issues/442))
+
+- **FIX:** Fix issue where currency symbol would get corrupted when changing it ([#469](https://github.com/buckets/application/issues/469))
+
+- **FIX:** Attempted fix for macOS 10.10 failure to run after update. ([#472](https://github.com/buckets/application/issues/472))
+
+- Removed the part on the export page asking why you're exporting data.
+
 ## v0.56.1 - 2020-05-21
 
 - **FIX:** Fix random, discrepency between uncategorized transaction count and the transaction badge.  ([#453](https://github.com/buckets/application/issues/453), [#454](https://github.com/buckets/application/issues/454))
