@@ -1,4 +1,14 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.57.0 - 2020-07-31
+
+- **FIX:** Fix excessive use of file descriptors crash ([#474](https://github.com/buckets/application/issues/474))
+
+- **FIX:** Fix macOS notarization for Catalina ([#478](https://github.com/buckets/application/issues/478))
+
+- Refactored the computation of most budget values to make it consistent with mobile app.
+
+- Better explanation of how to categorize debt transactions.
+
 ## v0.56.2 - 2020-06-12
 
 - **FIX:** Turned a silent crash into a reported crash ([#464](https://github.com/buckets/application/issues/464))
