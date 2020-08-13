@@ -1,4 +1,10 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.57.1 - 2020-08-12
+
+- **FIX:** Fix bug where opening multiple budgets caused interference between them. It was never reported from users, so it may never have been a problem other than in development.
+
+- **FIX:** Fixed bug that prevented transaction data from being updated ([#479](https://github.com/buckets/application/issues/479))
+
 ## v0.57.0 - 2020-07-31
 
 - **FIX:** Fix excessive use of file descriptors crash ([#474](https://github.com/buckets/application/issues/474))
