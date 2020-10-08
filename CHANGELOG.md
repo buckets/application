@@ -1,4 +1,12 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.57.3 - 2020-10-05
+
+- **NEW:** Remove need to select timezone ([#180](https://github.com/buckets/application/issues/180))
+
+- **FIX:** Fix goal bucket being off by one month ([#407](https://github.com/buckets/application/issues/407))
+
+- **FIX:** Fixed end-of-month, disappearing transactions bug ([#514](https://github.com/buckets/application/issues/514), [#510](https://github.com/buckets/application/issues/510), [#170](https://github.com/buckets/application/issues/170))
+
 ## v0.57.2 - 2020-08-21
 
 - **FIX:** Show on the import page that Buckets can import OFX, QFX and CSV files ([#445](https://github.com/buckets/application/issues/445))
