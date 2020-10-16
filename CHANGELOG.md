@@ -1,4 +1,14 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.57.4 - 2020-10-14
+
+- **NEW:** Make SimpleFIN sync faster by requesting whole time period at once ([#511](https://github.com/buckets/application/issues/511))
+
+- **FIX:** Fixed several date/time and timezone bugs, especially for our friends down under. ([#515](https://github.com/buckets/application/issues/515), [#516](https://github.com/buckets/application/issues/516), [#518](https://github.com/buckets/application/issues/518), [#519](https://github.com/buckets/application/issues/519))
+
+- **FIX:** Fixed error that caused too many requests to SimpleFIN server ([#522](https://github.com/buckets/application/issues/522))
+
+- Made null-checking more strict to prevent TypeErrors ([#517](https://github.com/buckets/application/issues/517))
+
 ## v0.57.3 - 2020-10-05
 
 - **NEW:** Remove need to select timezone ([#180](https://github.com/buckets/application/issues/180))
