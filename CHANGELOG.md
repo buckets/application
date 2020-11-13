@@ -1,4 +1,26 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.57.5 - 2020-11-12
+
+- **NEW:** Added a debugging tool for those extra tricky bugs
+
+- **FIX:** Tooltip flickering on calculator has been fixed ([#498](https://github.com/buckets/application/issues/498))
+
+- **FIX:** Now you can't accidentally make duplicate transactions by pressing enter really quickly ([#487](https://github.com/buckets/application/issues/487))
+
+- **FIX:** Application no longer crashes when trying to open a non-existent file ([#488](https://github.com/buckets/application/issues/488))
+
+- **FIX:** Fix goal date picker going to wrong year ([#527](https://github.com/buckets/application/issues/527))
+
+- **FIX:** Newly created "Save X by Y date" buckets now immediately show the required deposit after you enter a goal ([#526](https://github.com/buckets/application/issues/526))
+
+- **FIX:** Fixed bug where a invalid timestamp caused an error when attempting to turn it into a date ([#529](https://github.com/buckets/application/issues/529))
+
+- **FIX:** The *Make it so* button again clears out all the current values in In/Out ([#531](https://github.com/buckets/application/issues/531))
+
+- Reduced error logging for missing locales ([#489](https://github.com/buckets/application/issues/489))
+
+- Deprecated Amazon Reconciliation tool, *sniff*
+
 ## v0.57.4 - 2020-10-14
 
 - **NEW:** Make SimpleFIN sync faster by requesting whole time period at once ([#511](https://github.com/buckets/application/issues/511))
