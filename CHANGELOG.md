@@ -1,4 +1,14 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.58.0 - 2020-11-19
+
+- **FIX:** Accounts are now sorted alphabetically ([#148](https://github.com/buckets/application/issues/148))
+
+- **FIX:** Fixed bug that prevented entering some years in a goal bucket target date ([#539](https://github.com/buckets/application/issues/539))
+
+- **FIX:** Fixed crash caused by invalid transaction dates ([#537](https://github.com/buckets/application/issues/537))
+
+- **FIX:** Windows 10 may auto-update again (on the next version, though) ([#538](https://github.com/buckets/application/issues/538))
+
 ## v0.57.5 - 2020-11-12
 
 - **NEW:** Added a debugging tool for those extra tricky bugs
