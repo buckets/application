@@ -1,4 +1,16 @@
 <!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+## v0.59.0 - 2021-07-14
+
+- **NEW:** Updated computer-to-computer sync protocol to be forward compatible
+
+- **NEW:** Upgrade SQLite to v3.35.0
+
+- **FIX:** Fixed a crash caused by goal buckets with very large goals ([#547](https://github.com/buckets/application/issues/547))
+
+- **FIX:** Fix a few errors that happened when choosing months in the month pickers ([#546](https://github.com/buckets/application/issues/546), [#568](https://github.com/buckets/application/issues/568))
+
+- **FIX:** Fixed a bug that made it seem like undo/redo wasn't working when in fact it was just not updating the screen in some cases ([#564](https://github.com/buckets/application/issues/564), [#552](https://github.com/buckets/application/issues/552))
+
 ## v0.58.0 - 2020-11-19
 
 - **FIX:** Accounts are now sorted alphabetically ([#148](https://github.com/buckets/application/issues/148))
