@@ -1,4 +1,9 @@
-<!-- THIS FILE IS AUTOMATICALLY UPDATED. SEE THE README -->
+# v0.60.0 - 2021-09-13
+
+- **NEW:** Builds are more automated now.
+- **FIX:** When submitting bugs, redirects are followed now.
+- Updated bug-reporting server URL.
+
 ## v0.59.0 - 2021-07-14
 
 - **NEW:** Updated computer-to-computer sync protocol to be forward compatible
