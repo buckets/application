@@ -1,3 +1,8 @@
+# v0.60.1 - 2021-10-05
+
+- **FIX:** Allow Kubuntu users to navigate filesystem when looking for YNAB4 files to import ([#582](https://github.com/buckets/application/issues/582))
+- **FIX:** Buckets no longer crashes on startup on Windows ([#584](https://github.com/buckets/application/issues/584))
+
 # v0.60.0 - 2021-09-13
 
 - **NEW:** Builds are more automated now.
