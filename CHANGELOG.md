@@ -1,3 +1,8 @@
+# v0.61.0 - 2021-11-03
+
+- **NEW:** Added the ability to import from nYNAB's exported zip files. ([#110](https://github.com/buckets/application/issues/110))
+- **NEW:** Faint cents are now disabled by default. You can re-enable them in preferences if you like squinting :) ([#344](https://github.com/buckets/application/issues/344))
+
 # v0.60.1 - 2021-10-05
 
 - **FIX:** Allow Kubuntu users to navigate filesystem when looking for YNAB4 files to import ([#582](https://github.com/buckets/application/issues/582))
