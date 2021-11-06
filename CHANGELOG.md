@@ -1,3 +1,13 @@
+# v0.63.0 - 2021-11-05
+
+- **NEW:** Buckets is now partially translated into Magyar. Thanks Peter!
+- **NEW:** Buckets is now translated into Svenska. Tack, Therese!
+- **NEW:** Buckets is now partially translated into Eesti. Thanks, Indrek!
+- **FIX:** When importing from nYNAB, there's now an indication that something is actually happening :) ([#598](https://github.com/buckets/application/issues/598))
+- **FIX:** When importing from nYNAB, Buckets does better at keeping activity in past months instead of all in the current month ([#603](https://github.com/buckets/application/issues/603))
+- **FIX:** When importing from nYNAB, reconciled transactions are now marked as cleared. ([#610](https://github.com/buckets/application/issues/610))
+- Rename Bokmål to Norsk
+
 # v0.62.0 - 2021-11-03
 
 - **NEW:** Buckets is now available in Bokmål. Takk, Viggo!
