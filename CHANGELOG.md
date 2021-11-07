@@ -1,3 +1,7 @@
+# v0.63.1 - 2021-11-06
+
+- **FIX:** In nYNAB import, don't stop if there's an unknown category ([#614](https://github.com/buckets/application/issues/614))
+
 # v0.63.0 - 2021-11-05
 
 - **NEW:** Buckets is now partially translated into Magyar. Thanks Peter!
