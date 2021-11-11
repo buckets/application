@@ -1,3 +1,12 @@
+# v0.63.2 - 2021-11-10
+
+- **FIX:** More Turkish translations.
+- **FIX:** During nYNAB import, decimal and thousands separators are now honored. ([#641](https://github.com/buckets/application/issues/641))
+- **FIX:** When importing from nNYAB, Buckets attempts to guess the date format if it doesn't match what was given ([#634](https://github.com/buckets/application/issues/634))
+- **FIX:** More Norwegian translations.
+- **FIX:** More Hungarian translations.
+- **FIX:** More Spanish translations. Thanks, osanchez!
+
 # v0.63.1 - 2021-11-06
 
 - **FIX:** In nYNAB import, don't stop if there's an unknown category ([#614](https://github.com/buckets/application/issues/614))
