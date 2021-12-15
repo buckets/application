@@ -1,3 +1,10 @@
+# v0.64.0 - 2021-12-14
+
+- **NEW:** Added documentation for sharing tool, describing how to get budget files from the Desktop app to the mobile app. ([#655](https://github.com/buckets/application/issues/655))
+- **NEW:** Updated sharing tool to match most recent mobile app version.
+- **FIX:** Updated German translations
+- **FIX:** Fixed month names for Swedish ([#616](https://github.com/buckets/application/issues/616))
+
 # v0.63.2 - 2021-11-10
 
 - **FIX:** More Turkish translations.
