@@ -1,3 +1,31 @@
+# v0.65.0 - 2022-02-17
+
+- **NEW:** CSV files delimited by semicolons and tabs can now be imported ([#530](https://github.com/buckets/application/issues/530))
+- **NEW:** Buckets now supports currencies with 3 (or more) decimal places and any thousands or decimal separator ([#597](https://github.com/buckets/application/issues/597))
+- **NEW:** You can now search for numbers on the search page. ([#422](https://github.com/buckets/application/issues/422))
+- **NEW:** You can choose the number format when importing OFX files ([#583](https://github.com/buckets/application/issues/583))
+- **NEW:** Added a keyboard shortcut and menu item to quickly get to the search page (`Command /` or `Control /`)
+- **NEW:** Exports now include transaction notes ([#717](https://github.com/buckets/application/issues/717))
+- **FIX:** Fixed link to purchase license and ability to paste license for some macOS users ([#587](https://github.com/buckets/application/issues/587))
+- **FIX:** When importing, you can now ignore unknown/unlinked accountd ([#408](https://github.com/buckets/application/issues/408))
+- **FIX:** Fixed crash when importing from nYNAB without a delimiter ([#716](https://github.com/buckets/application/issues/716))
+- **FIX:** When importing CSV files, selecting multiple columns for 'Memo' will now concatenate the chosen fields ([#331](https://github.com/buckets/application/issues/331))
+- **FIX:** When importing CSV files, dates are no longer incorrectly flagged as invalid ([#581](https://github.com/buckets/application/issues/581),[#573](https://github.com/buckets/application/issues/573),[#533](https://github.com/buckets/application/issues/533))
+- **FIX:** You can now cancel CSV imports ([#324](https://github.com/buckets/application/issues/324))
+- **FIX:** CSV import can now handle dates of the format 01 JAN 2020 ([#702](https://github.com/buckets/application/issues/702))
+- **FIX:** Fixed various errors encountered while importing transactions from OFX and CSV files ([#340](https://github.com/buckets/application/issues/340), [#463](https://github.com/buckets/application/issues/463), [#545](https://github.com/buckets/application/issues/545), [#536](https://github.com/buckets/application/issues/536), [#502](https://github.com/buckets/application/issues/502))
+- **FIX:** OFX files with mismatched `<CCSTMTRS>` and `</STMTRS>` tags can now be imported ([#378](https://github.com/buckets/application/issues/378))
+- **FIX:** CSV importing can handle much bigger files now ([#459](https://github.com/buckets/application/issues/459))
+- **FIX:** Fixed a bug that discarded pending bucket name changes when you updated a bucket groups name. ([#231](https://github.com/buckets/application/issues/231), [#661](https://github.com/buckets/application/issues/661))
+- **FIX:** When importing CSV files, you can now exclude rows from the top and bottom of the CSV file ([#300](https://github.com/buckets/application/issues/300))
+- **FIX:** Fixed error on search page ([#644](https://github.com/buckets/application/issues/644))
+- **FIX:** When importing CSV files, fixed a bug where columns were duplicated if they had the same header ([#460](https://github.com/buckets/application/issues/460))
+- **FIX:** When importing CSV files, removed *Unique ID* column in favor of computing it automatically ([#556](https://github.com/buckets/application/issues/556))
+- **FIX:** More French translations!
+- **FIX:** OFX files with lone `&` characters are now supported ([#627](https://github.com/buckets/application/issues/627))
+- **FIX:** When importing from CSV, you may reverse the order transactions are importedd if the CSV list transactions from most to least recent ([#329](https://github.com/buckets/application/issues/329))
+- **FIX:** New translations for Română, Español, Deutsch and Русский!
+
 # v0.64.0 - 2021-12-14
 
 - **NEW:** Added documentation for sharing tool, describing how to get budget files from the Desktop app to the mobile app. ([#655](https://github.com/buckets/application/issues/655))
