@@ -1,3 +1,7 @@
+# v0.66.2 - 2022-04-14
+
+- **FIX:** Restore proper ordering to transactions ([#739](https://github.com/buckets/application/issues/739))
+
 # v0.66.1 - 2022-04-13
 
 - **FIX:** Improved logging when importing transaction data.
