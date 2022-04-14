@@ -1,3 +1,8 @@
+# v0.66.1 - 2022-04-13
+
+- **FIX:** Improved logging when importing transaction data.
+- **FIX:** Fixed regression preventing imports in budgets with a mix of manually-entered and imported transactions ([#739](https://github.com/buckets/application/issues/739))
+
 # v0.66.0 - 2022-04-05
 
 - **NEW:** When importing OFX/QFX files, you may now swap the `<NAME>` and `<MEMO>` fields ([#366](https://github.com/buckets/application/issues/366))
