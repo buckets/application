@@ -1,3 +1,8 @@
+# v0.66.3 - 2022-04-19
+
+- **FIX:** Exporting tool now honors the date range you pick ([#563](https://github.com/buckets/application/issues/563))
+- **FIX:** Activity no longer shows up in the wrong month ([#744](https://github.com/buckets/application/issues/744))
+
 # v0.66.2 - 2022-04-14
 
 - **FIX:** Restore proper ordering to transactions ([#739](https://github.com/buckets/application/issues/739))
