@@ -1,3 +1,14 @@
+# v0.66.4 - 2022-06-13
+
+- **FIX:** Changed how *Activity* is computed so that it *only* includes real life income/expenses for a bucket. Also changed *In* to only include money directly deposited into or withdrawn from a bucket via the In/Out input. ([#362](https://github.com/buckets/application/issues/362))
+- **FIX:** When categorizing, you can now enter a number higher than the total amount so you can do math with it. ([#118](https://github.com/buckets/application/issues/118))
+- **FIX:** CSV date format chooser now explicitly mentions that you can type a custom format ([#752](https://github.com/buckets/application/issues/752))
+- **FIX:** Remove the "running balance does not match the last synced balance" warning, as it was almost always unhelpful ([#706](https://github.com/buckets/application/issues/706))
+- **FIX:** Removed notice about Amazon tool not working, because it still works ([#528](https://github.com/buckets/application/issues/528))
+- **FIX:** Removed closed accounts from the transfer to/from dropdown ([#543](https://github.com/buckets/application/issues/543))
+- **FIX:** Fix race condition error on application startup ([#580](https://github.com/buckets/application/issues/580))
+- **FIX:** Bug reports now include version number in the subject line  (internal change).
+
 # v0.66.3 - 2022-04-19
 
 - **FIX:** Exporting tool now honors the date range you pick ([#563](https://github.com/buckets/application/issues/563))
