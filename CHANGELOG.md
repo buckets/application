@@ -1,3 +1,8 @@
+# v0.66.5 - 2022-06-20
+
+- **FIX:** Fix startup error on Windows ([#762](https://github.com/buckets/application/issues/762))
+- **FIX:** Updates to various translations. Thank you, all!
+
 # v0.66.4 - 2022-06-13
 
 - **FIX:** Changed how *Activity* is computed so that it *only* includes real life income/expenses for a bucket. Also changed *In* to only include money directly deposited into or withdrawn from a bucket via the In/Out input. ([#362](https://github.com/buckets/application/issues/362))
