@@ -1,3 +1,12 @@
+# v0.67.0 - 2022-07-18
+
+- **BREAKING CHANGE:** When entering transaction amounts, typing `-` before the number will no longer flip the sign. Sorry, we know this is going to ruin your muscle memory! Instead, type `+` for positive numbers and use no prefix (or type `-`) to use negative numbers. You can also click on the big `-` before the amount to toggle between positive and negative numbers ([#725](https://github.com/buckets/application/issues/725), [#496](https://github.com/buckets/application/issues/496))
+- **NEW:** Added 8 new colorblind-friendly default bucket colors *and* added a color picker so you can choose whatever hue hue want! ([#690](https://github.com/buckets/application/issues/690))
+- **NEW:** Buckets with the same name will now also include their group name in the categorizing dropdown list. ([#594](https://github.com/buckets/application/issues/594))
+- **NEW:** Handle new SimpleFIN `pending` transaction attribute. At this point, the attribute is used to ignore pending transactions but will be used in the future to add the transactions once pending transactions are added to Buckets.
+- **NEW:** You can now do fuzzy searching when categorizing transactions. That is, you can type "Insurance" and it will match both "Car Insurance" and "Dog insurance" buckets. ([#153](https://github.com/buckets/application/issues/153))
+- **FIX:** Silence Dbus-related errors on Linux when keychain access fails ([#755](https://github.com/buckets/application/issues/755))
+
 # v0.66.5 - 2022-06-20
 
 - **FIX:** Fix startup error on Windows ([#762](https://github.com/buckets/application/issues/762))
