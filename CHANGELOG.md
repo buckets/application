@@ -1,3 +1,15 @@
+# v0.67.1 - 2022-07-25
+
+- **FIX:** A bucket's *Activity* and *In* amounts are now correctly updated when you undo a prior deposit or withdrawal ([#591](https://github.com/buckets/application/issues/591))
+- **FIX:** Document that Rain only makes sense when transactions have all been categorized ([#508](https://github.com/buckets/application/issues/508))
+- **FIX:** CSV imports will treat parentheses-enclosed numbers as negative ([#740](https://github.com/buckets/application/issues/740))
+- **FIX:** Syncing from SimpleFIN will no longer overwrite the memo unless it's blank ([#746](https://github.com/buckets/application/issues/746))
+- **FIX:** In the case where 0-amount transactions are created (typically via import/sync) you can now categorize them so they no longer show as uncategorized ([#700](https://github.com/buckets/application/issues/700))
+- **FIX:** When importing from YNAB4, Buckets now looks for `Budget.ymeta` and `Budget.yfull` files in more places ([#429](https://github.com/buckets/application/issues/429), [#493](https://github.com/buckets/application/issues/493))
+- **FIX:** Fuzzy searching when categorizing will now highlight the best option consistently ([#773](https://github.com/buckets/application/issues/773))
+- **FIX:** Prior to this change, if you kicked the Buckets License bucket it would reappear next time you opened the budget. This was confusing. Now, you can no longer kick it at all with the Trial Version. ([#609](https://github.com/buckets/application/issues/609))
+- **FIX:** Removed up/down buttons on all date inputs because they are buggy and the keyboard up/down keys can achieve the same effect. ([#764](https://github.com/buckets/application/issues/764))
+
 # v0.67.0 - 2022-07-18
 
 - **BREAKING CHANGE:** When entering transaction amounts, typing `-` before the number will no longer flip the sign. Sorry, we know this is going to ruin your muscle memory! Instead, type `+` for positive numbers and use no prefix (or type `-`) to use negative numbers. You can also click on the big `-` before the amount to toggle between positive and negative numbers ([#725](https://github.com/buckets/application/issues/725), [#496](https://github.com/buckets/application/issues/496))
