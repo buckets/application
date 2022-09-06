@@ -1,3 +1,11 @@
+# v0.67.2 - 2022-09-05
+
+- **FIX:** Several translation fixes for Türkçe, Español and Eestlane. Thank you, contributors!
+- **FIX:** Log OS version for debugging help
+- **FIX:** Fixed bug in OFX importing where later transactions would get copies of data from earlier transactions ([#778](https://github.com/buckets/application/issues/778))
+- **FIX:** If you accidentally give an account a blank name, you can now rename it ([#785](https://github.com/buckets/application/issues/785))
+- **FIX:** Restore ability to import CSV files with separate credit/debit columns where both are positive ([#790](https://github.com/buckets/application/issues/790))
+
 # v0.67.1 - 2022-07-25
 
 - **FIX:** A bucket's *Activity* and *In* amounts are now correctly updated when you undo a prior deposit or withdrawal ([#591](https://github.com/buckets/application/issues/591))
