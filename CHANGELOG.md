@@ -1,6 +1,14 @@
+# v0.68.0 - 2022-09-22
+
+- **NEW:** Automatic backups are now created for your budgets. ([#74](https://github.com/buckets/application/issues/74))
+- **FIX:** Fixed regression that prevented importing into off-budget accounts ([#284](https://github.com/buckets/application/issues/284))
+- **FIX:** Restored some of the readability of the category-choosing dropdown by removing whitespace and allowing the popup menu to expand its width ([#780](https://github.com/buckets/application/issues/780))
+- **FIX:** Fixed license entry field so that copying and pasting works on all machines ([#587](https://github.com/buckets/application/issues/587))
+- **FIX:** If automatic updates fail, users are prompted to download from the website instead ([#786](https://github.com/buckets/application/issues/786))
+
 # v0.67.2 - 2022-09-05
 
-- **FIX:** Several translation fixes for Türkçe, Español and Eestlane. Thank you, contributors!
+- **FIX:** Several translation fixes for Türkçe, Español and Eesti. Thank you, contributors!
 - **FIX:** Log OS version for debugging help
 - **FIX:** Fixed bug in OFX importing where later transactions would get copies of data from earlier transactions ([#778](https://github.com/buckets/application/issues/778))
 - **FIX:** If you accidentally give an account a blank name, you can now rename it ([#785](https://github.com/buckets/application/issues/785))
