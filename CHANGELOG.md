@@ -1,3 +1,22 @@
+# v0.69.0 - 2022-11-30
+
+- **NEW:** Added End User License Agreement and Privacy Policy to Guide. Also, you may choose to accept the EULA through App Settings. In a future version all users will be **required** to accept the EULA to continue using Buckets.
+- **NEW:** Made bucket names in the Recurring Expense report link to the individual bucket view ([#314](https://github.com/buckets/application/issues/314))
+- **NEW:** Accounts balances in the sidebar now include cents ([#601](https://github.com/buckets/application/issues/601))
+- **NEW:** If a budget has only one account, it will be automatically chosen in the transaction-creation form ([#441](https://github.com/buckets/application/issues/441))
+- **NEW:** More prominently display "Undo" after deleting and account. ([#813](https://github.com/buckets/application/issues/813))
+- **NEW:** Added more default time formats for CSV importing, including single-digit months and days ([#826](https://github.com/buckets/application/issues/826))
+- **FIX:** The Recurring Expense report now includes the current month ([#337](https://github.com/buckets/application/issues/337))
+- **FIX:** Preferences, Bank macro recorder and bug report windows no longer have a menu on Windows and Linux ([#617](https://github.com/buckets/application/issues/617), [#806](https://github.com/buckets/application/issues/806), [#805](https://github.com/buckets/application/issues/805))
+- **FIX:** You can now categorize 0-amount transactions ([#700](https://github.com/buckets/application/issues/700))
+- **FIX:** Fixed failure to parse OFX timestamps with a 'GMT' at the end ([#815](https://github.com/buckets/application/issues/815))
+- **FIX:** The plus button to add a bucket is aligned correctly on the Misc group ([#501](https://github.com/buckets/application/issues/501))
+- **FIX:** The bucket settings and trash can icon is now separated to make it less goofy ([#562](https://github.com/buckets/application/issues/562))
+- **FIX:** Upgrade SQLite to 3.39.4
+- **FIX:** The bucket settings acceptance button (the checkmark) is now lined up better with the settings box ([#242](https://github.com/buckets/application/issues/242))
+- **FIX:** On the account list table, you can now click anywhere in the name cell to go to an account's details (so that it's easier to click on accounts with short names) ([#578](https://github.com/buckets/application/issues/578))
+- **FIX:** Changed the Rain/mo tooltip to specifically mention *want* (since it's a sum of all the bucket wants) ([#326](https://github.com/buckets/application/issues/326))
+
 # v0.68.0 - 2022-09-22
 
 - **NEW:** Automatic backups are now created for your budgets. ([#74](https://github.com/buckets/application/issues/74))
