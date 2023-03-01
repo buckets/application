@@ -1,3 +1,10 @@
+# v0.70.0 - 2023-03-01
+
+- **NEW:** Sharing between devices is much more straightforward now. Also, you many now share using the public relay (or your own relay if you'd like to host one). ([#670](https://github.com/buckets/application/issues/670), [#866](https://github.com/buckets/application/issues/866), [#850](https://github.com/buckets/application/issues/850))
+- **FIX:** Support sharing on older macOS computers ([#687](https://github.com/buckets/application/issues/687))
+- **FIX:** Make various transient errors that sometimes happen during auto updates less annoying and only pop up the update window when there's something a user can do ([#570](https://github.com/buckets/application/issues/570), [#817](https://github.com/buckets/application/issues/817), [#822](https://github.com/buckets/application/issues/822), [#830](https://github.com/buckets/application/issues/830), [#839](https://github.com/buckets/application/issues/839), [#840](https://github.com/buckets/application/issues/840), [#859](https://github.com/buckets/application/issues/859), [#864](https://github.com/buckets/application/issues/864))
+- **FIX:** Fix auto update on Windows due to certificate Common Name case mismatch ([#836](https://github.com/buckets/application/issues/836))
+
 # v0.69.0 - 2022-11-30
 
 - **NEW:** Added End User License Agreement and Privacy Policy to Guide. Also, you may choose to accept the EULA through App Settings. In a future version all users will be **required** to accept the EULA to continue using Buckets.
