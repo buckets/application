@@ -1,3 +1,13 @@
+# v0.3.0 - 2023-03-04
+
+- **NEW:** Moved budget menu items to the bottom of the drawer so that they're closer to your finger after pressing the hamburger menu.
+- **NEW:** Added a Report Bug feature that allows sending logs back for debugging ([#798](https://github.com/buckets/application/issues/798))
+- **NEW:** Android builds are now release builds instead of debug builds.
+- **NEW:** Added links to Accounts, Buckets and Transactions in the bottom tray ([#801](https://github.com/buckets/application/issues/801))
+- **FIX:** Switched to BearSSL from OpenSSL for better cross-platform consistency
+- **FIX:** TLS/SSL now works on Android
+- **FIX:** Budget files are now preserved between iOS versions
+
 # v0.2.0 - 2022-09-15
 
 - **NEW:** You can now delete budget files from the mobile app ([#679](https://github.com/buckets/application/issues/679))
