@@ -1,3 +1,11 @@
+# v0.70.1 - 2023-03-06
+
+- **FIX:** Fix missing symbol on older macOS versions ([#870](https://github.com/buckets/application/issues/870), [#808](https://github.com/buckets/application/issues/808))
+- **FIX:** Statically link libsodium on Linux again ([#861](https://github.com/buckets/application/issues/861), [#825](https://github.com/buckets/application/issues/825))
+- **FIX:** Include bug report ID in bug report submission body so we can find old bug reports more easily
+- **FIX:** Prevent rare error when updating an account balance without a transaction  ([#835](https://github.com/buckets/application/issues/835))
+- **FIX:** Fixed a bug that prevented you from entering two transactions in a row for the same account ([#868](https://github.com/buckets/application/issues/868))
+
 # v0.70.0 - 2023-03-01
 
 - **NEW:** Sharing between devices is much more straightforward now. Also, you many now share using the public relay (or your own relay if you'd like to host one). ([#670](https://github.com/buckets/application/issues/670), [#866](https://github.com/buckets/application/issues/866), [#850](https://github.com/buckets/application/issues/850))
