@@ -1,3 +1,7 @@
+# v0.70.2 - 2023-03-07
+
+- **FIX:** Fix failure to run on Windows 11 due to missing `libwinpthread-1.dll` ([#876](https://github.com/buckets/application/issues/876))
+
 # v0.70.1 - 2023-03-06
 
 - **FIX:** Fix missing symbol on older macOS versions ([#870](https://github.com/buckets/application/issues/870), [#808](https://github.com/buckets/application/issues/808))
