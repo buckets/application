@@ -1,3 +1,9 @@
+# v0.70.3 - 2023-03-21
+
+- **FIX:** Update translations for Polski, Español, Português and Română. Thank you, translators!
+- **FIX:** A failed backup will no longer crash Buckets ([#879](https://github.com/buckets/application/issues/879))
+- **FIX:** Fix bug with a missing function in `libSystem` on macOS High Sierra ([#881](https://github.com/buckets/application/issues/881))
+
 # v0.70.2 - 2023-03-07
 
 - **FIX:** Fix failure to run on Windows 11 due to missing `libwinpthread-1.dll` ([#876](https://github.com/buckets/application/issues/876))
