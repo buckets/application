@@ -1,3 +1,7 @@
+# v0.70.4 - 2023-04-11
+
+- **FIX:** Fixed SimpleFIN Bridge certificate errors by using a more forward-compatible method of making HTTP requests ([#895](https://github.com/buckets/application/issues/895))
+
 # v0.70.3 - 2023-03-21
 
 - **FIX:** Update translations for Polski, Español, Português and Română. Thank you, translators!
