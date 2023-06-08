@@ -1,3 +1,11 @@
+# v0.70.5 - 2023-06-08
+
+- **FIX:** Fixed an error that prevented pasting a Buckets License in when trying to use the Buckets Relay ([#884](https://github.com/buckets/application/issues/884))
+- **FIX:** Show local sharing server as "Running" instead of "Starting" when it's actually running.
+- **FIX:** Bug reports work again and failed report submissions are no longer reported as successes in the log ([#909](https://github.com/buckets/application/issues/909))
+- **FIX:** When checking for updates fails for network problems outside of Buckets' control, an error is no longer shown to the user ([#898](https://github.com/buckets/application/issues/898))
+- **FIX:** In sidebar list of accounts, a consistent number of decimal places is now shown, even if the "cents" part is 0 ([#910](https://github.com/buckets/application/issues/910))
+
 # v0.70.4 - 2023-04-11
 
 - **FIX:** Fixed SimpleFIN Bridge certificate errors by using a more forward-compatible method of making HTTP requests ([#895](https://github.com/buckets/application/issues/895))
