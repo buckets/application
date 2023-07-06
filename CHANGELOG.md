@@ -1,3 +1,13 @@
+# v0.71.0 - 2023-07-06
+
+- **NEW:** Closed accounts no longer show in the Transaction page dropdown. If you need to create a transaction for a closed account, go to the page for closed account. ([#470](https://github.com/buckets/application/issues/470))
+- **NEW:** After adding a transaction, focus will go to the date input rather than the memo. This way, you should be able to only ever press `Tab` and not have to press `Shift`-`Tab` to go back to the date. ([#476](https://github.com/buckets/application/issues/476))
+- **NEW:** Improved the transaction date picker, including fixing a bug that caused both day and month to change when adjusting with the keyboard ([#728](https://github.com/buckets/application/issues/728), [#240](https://github.com/buckets/application/issues/240), [#258](https://github.com/buckets/application/issues/258), [#721](https://github.com/buckets/application/issues/721))
+- **FIX:** Bug reports now include log files formatted correctly.
+- **FIX:** While the clickable arrows aren't back, you can use the keyboard to adjust each part of the date now ([#824](https://github.com/buckets/application/issues/824))
+- **FIX:** Removed clutter from log for backups ([#912](https://github.com/buckets/application/issues/912))
+- **FIX:** Some OFX files lack account information for banks that reuse transaction ids across different accounts. You can now import those transactions and see which transactions are duplicates. ([#894](https://github.com/buckets/application/issues/894))
+
 # v0.70.5 - 2023-06-08
 
 - **FIX:** Fixed an error that prevented pasting a Buckets License in when trying to use the Buckets Relay ([#884](https://github.com/buckets/application/issues/884))
