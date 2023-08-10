@@ -1,3 +1,7 @@
+# v0.71.1 - 2023-08-10
+
+- **FIX:** Move calendar in new date picker to the front of the input to transaction-entry require one less tab ([#917](https://github.com/buckets/application/issues/917))
+
 # v0.71.0 - 2023-07-06
 
 - **NEW:** Closed accounts no longer show in the Transaction page dropdown. If you need to create a transaction for a closed account, go to the page for closed account. ([#470](https://github.com/buckets/application/issues/470))
