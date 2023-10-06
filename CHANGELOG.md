@@ -1,3 +1,11 @@
+# v0.72.1 - 2023-10-06
+
+- **FIX:** On Windows and Linux, Buckets will do better at reopening the last set of windows you had opened when you closed it. ([#406](https://github.com/buckets/application/issues/406), [#751](https://github.com/buckets/application/issues/751))
+- **FIX:** Fix error when accounts used in syncing were deleted but not fully cleaned up ([#931](https://github.com/buckets/application/issues/931))
+- **FIX:** When Buckets fails to get a valid SimpleFIN Access URL, it no longer stores it as if it's a good one ([#930](https://github.com/buckets/application/issues/930))
+- **FIX:** When a new update is available for Buckets Beta on Linux, it will send you to the Beta download page rather than the Stable download page. ([#933](https://github.com/buckets/application/issues/933))
+- **FIX:** The calendar popup no longer hangs around when you focus on the next field ([#924](https://github.com/buckets/application/issues/924))
+
 # v0.72.0 - 2023-09-28
 
 - **NEW:** You can now print (to paper or PDF) various pages! Some screens will look better than others. This is mostly to make the new Income and Expense report printable. ([#285](https://github.com/buckets/application/issues/285))
