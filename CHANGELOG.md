@@ -1,3 +1,14 @@
+# v0.73.0 - 2024-01-04
+
+- **BREAKING CHANGE:** **If you open a budget with this version, you will likely not be able to open it with a prior version.** This version changes all sequential database IDs to non-sequential GUIDs to prepare for device-to-device syncing.
+- **NEW:** Budget files can now be merged! Go to *Tools* > *Merge Budgets* to try it out. ([#134](https://github.com/buckets/application/issues/134))
+- **NEW:** Upgraded SQLite to 3.44.0
+- **NEW:** Account starting balance is now stored explicitly (rather than being computed from the recorded balance and all balance-affecting transactions)
+- **NEW:** Budgets can be shared between devices using a shared folder, such as is offered by Dropbox, Google Drive, iCloud and others. ([#276](https://github.com/buckets/application/issues/276), [#548](https://github.com/buckets/application/issues/548), [#633](https://github.com/buckets/application/issues/633), [#712](https://github.com/buckets/application/issues/712), [#891](https://github.com/buckets/application/issues/891))
+- **FIX:** Generic linux builds use `linux-latest` rather than `ubuntu-22.04` in their filename. ([#937](https://github.com/buckets/application/issues/937))
+- **FIX:** Fixed translations for Estonian, Spanish, Turkish, Romanian and Portuguese. Thank you, translators!
+- **FIX:** Add Беларуская translations -- thank you Yahor!
+
 # v0.72.1 - 2023-10-06
 
 - **FIX:** On Windows and Linux, Buckets will do better at reopening the last set of windows you had opened when you closed it. ([#406](https://github.com/buckets/application/issues/406), [#751](https://github.com/buckets/application/issues/751))
