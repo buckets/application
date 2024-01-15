@@ -1,3 +1,12 @@
+# v0.73.1 - 2024-01-15
+
+- **FIX:** Fixed a bug that prevented deleting existing sharing avenues when upgrading to v0.73.0 ([#949](https://github.com/buckets/application/issues/949))
+- **FIX:** On Linux, GPU rendering is now disabled by default to fix a rendering bug on many Linux machines. To reenable it set `BUCKETS_ENABLE_HARDWARE_ACCELERATION=1` when running Buckets. ([#946](https://github.com/buckets/application/issues/946))
+- **FIX:** Fixed a crash that happened when a shared folder becomes unavailable ([#953](https://github.com/buckets/application/issues/953))
+- **FIX:** Errors during merging are now shown as specific error messages ([#950](https://github.com/buckets/application/issues/950))
+- **FIX:** Catch more errors during update instead of crashing ([#934](https://github.com/buckets/application/issues/934), [#939](https://github.com/buckets/application/issues/939), [#941](https://github.com/buckets/application/issues/941))
+- **FIX:** Fixed rare crash from translation misconfiguration ([#938](https://github.com/buckets/application/issues/938))
+
 # v0.73.0 - 2024-01-04
 
 - **BREAKING CHANGE:** **If you open a budget with this version, you will likely not be able to open it with a prior version.** This version changes all sequential database IDs to non-sequential GUIDs to prepare for device-to-device syncing.
