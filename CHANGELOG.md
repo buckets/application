@@ -1,3 +1,8 @@
+# v0.73.2 - 2024-01-16
+
+- **FIX:** Fixed minor logging typo with shared folders ([#955](https://github.com/buckets/application/issues/955))
+- **FIX:** Fixed slowness introduced in latest version ([#957](https://github.com/buckets/application/issues/957))
+
 # v0.73.1 - 2024-01-15
 
 - **FIX:** Fixed a bug that prevented deleting existing sharing avenues when upgrading to v0.73.0 ([#949](https://github.com/buckets/application/issues/949))
