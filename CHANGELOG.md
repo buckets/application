@@ -1,3 +1,11 @@
+# v0.73.3 - 2024-01-30
+
+- **FIX:** Fixed a crash that sometimes happened with the Find on page feature ([#963](https://github.com/buckets/application/issues/963))
+- **FIX:** Verified fix for white screen issue on Linux ([#946](https://github.com/buckets/application/issues/946))
+- **FIX:** Upgrade Electron to 26.6.7
+- **FIX:** Fixed a crash caused by trying to access windows that are already closed ([#966](https://github.com/buckets/application/issues/966))
+- **FIX:** Fixed an error that caused no windows to show up on Linux when trying to open last saved windows. ([#965](https://github.com/buckets/application/issues/965))
+
 # v0.73.2 - 2024-01-16
 
 - **FIX:** Fixed minor logging typo with shared folders ([#955](https://github.com/buckets/application/issues/955))
