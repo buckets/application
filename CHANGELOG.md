@@ -1,3 +1,7 @@
+# v0.73.4 - 2024-02-28
+
+- **FIX:** When merging budgets, equivalent categorizations are no longer shown as conflicts ([#973](https://github.com/buckets/application/issues/973))
+
 # v0.73.3 - 2024-01-30
 
 - **FIX:** Fixed a crash that sometimes happened with the Find on page feature ([#963](https://github.com/buckets/application/issues/963))
@@ -30,6 +34,11 @@
 - **FIX:** Generic linux builds use `linux-latest` rather than `ubuntu-22.04` in their filename. ([#937](https://github.com/buckets/application/issues/937))
 - **FIX:** Fixed translations for Estonian, Spanish, Turkish, Romanian and Portuguese. Thank you, translators!
 - **FIX:** Add Беларуская translations -- thank you Yahor!
+
+# v0.72.2 - 2024-01-30
+
+- **FIX:** Verified fix for white screen issue on Linux ([#946](https://github.com/buckets/application/issues/946))
+- **FIX:** Upgrade Electron to 26.6.7
 
 # v0.72.1 - 2023-10-06
 
