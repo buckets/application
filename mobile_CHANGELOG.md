@@ -1,3 +1,9 @@
+# v0.3.1 - 2024-03-06
+
+- **FIX:** Buckets now tells you when merging starts, fails or succeeds.
+- **FIX:** Closed accounts are no longer shown in the mobile app and Off Budget accounts are shown at the end of the list ([#803](https://github.com/buckets/application/issues/803))
+- **FIX:** Fixed an error that prevented pasting a Buckets License in when trying to use the Buckets Relay ([#884](https://github.com/buckets/application/issues/884))
+
 # v0.3.0 - 2023-03-04
 
 - **NEW:** Moved budget menu items to the bottom of the drawer so that they're closer to your finger after pressing the hamburger menu.
