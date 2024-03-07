@@ -1,3 +1,13 @@
+# v0.74.0 - 2024-03-06
+
+- **NEW:** You can now skip updating to certain versions on Linux ([#980](https://github.com/buckets/application/issues/980))
+- **NEW:** Added a 'Show Budget File' menu option to quickly locate the current budget file in Finder/Explorer ([#977](https://github.com/buckets/application/issues/977))
+- **NEW:** There is now a total at the top of the Recurring Expenses report ([#954](https://github.com/buckets/application/issues/954))
+- **FIX:** The Recurring Expense report now computes expenses the same way the buckets page does. ([#565](https://github.com/buckets/application/issues/565), [#854](https://github.com/buckets/application/issues/854))
+- **FIX:** Updated translations for several languages
+- **FIX:** When merging, schema difference detection now ignores whitespace ([#978](https://github.com/buckets/application/issues/978))
+- **FIX:** Clarify that SimpleFIN is likely not free ([#827](https://github.com/buckets/application/issues/827))
+
 # v0.73.4 - 2024-02-28
 
 - **FIX:** When merging budgets, equivalent categorizations are no longer shown as conflicts ([#973](https://github.com/buckets/application/issues/973))
