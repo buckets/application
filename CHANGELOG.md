@@ -1,3 +1,11 @@
+# v0.74.1 - 2024-06-13
+
+- **FIX:** When there's already a problem, errors localizing the menu won't cause extra errors ([#956](https://github.com/buckets/application/issues/956))
+- **FIX:** Sharing folders now include a creation timestamp so you can distinguish and old and new version in the case where a device gets new keys ([#970](https://github.com/buckets/application/issues/970))
+- **FIX:** Misc group buckets that disappeared in the last few versions will return and be visible ([#990](https://github.com/buckets/application/issues/990))
+- **FIX:** When keys used for encrypting shared folders are broken, there is now a way to regenerate the keys in the Sharing preference pane ([#969](https://github.com/buckets/application/issues/969))
+- **FIX:** Merging errors are now diplayed consistently between desktop and mobile
+
 # v0.74.0 - 2024-03-06
 
 - **NEW:** You can now skip updating to certain versions on Linux ([#980](https://github.com/buckets/application/issues/980))
