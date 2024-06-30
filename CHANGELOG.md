@@ -1,3 +1,8 @@
+# v0.75.0 - 2024-06-29
+
+- **NEW:** Slow internal commands are now logged to make debugging slowness easier ([#1000](https://github.com/buckets/application/issues/1000))
+- **FIX:** On Windows, GPU rendering is now disabled by default to fix some extreme slowness on some machines. To reenable it set `BUCKETS_ENABLE_HARDWARE_ACCELERATION=1` when running Buckets. ([#1000](https://github.com/buckets/application/issues/1000))
+
 # v0.74.1 - 2024-06-13
 
 - **FIX:** When there's already a problem, errors localizing the menu won't cause extra errors ([#956](https://github.com/buckets/application/issues/956))
