@@ -1,3 +1,14 @@
+# v0.76.0 - 2024-07-05
+
+- **NEW:** Search page: you can now categorize and edit transactions on the search page ([#675](https://github.com/buckets/application/issues/675))
+- **NEW:** Transaction payees, memo, date and amount can be changed en masse ([#311](https://github.com/buckets/application/issues/311))
+- **NEW:** Transactions can be filtered now ([#334](https://github.com/buckets/application/issues/334))
+- **NEW:** Transactions now have Payees ([#101](https://github.com/buckets/application/issues/101), [#106](https://github.com/buckets/application/issues/106))
+- **NEW:** Accounts can be chosen by fuzzy search ([#807](https://github.com/buckets/application/issues/807))
+- **NEW:** You can now sort transactions ([#198](https://github.com/buckets/application/issues/198), [#267](https://github.com/buckets/application/issues/267))
+- **NEW:** You can now select and deselect all transactions by clicking the checkbox in the header row ([#226](https://github.com/buckets/application/issues/226))
+- **FIX:** When filtering the transaction list to only show uncategorized transactions, newly added transactions are now immediately shown and categorized transactions are immediately removed from the list ([#467](https://github.com/buckets/application/issues/467), [#919](https://github.com/buckets/application/issues/919))
+
 # v0.75.0 - 2024-06-29
 
 - **NEW:** Slow internal commands are now logged to make debugging slowness easier ([#1000](https://github.com/buckets/application/issues/1000))
