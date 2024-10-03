@@ -1,3 +1,24 @@
+# v0.77.0 - 2024-10-02
+
+- **NEW:** First draft of dark mode ([#293](https://github.com/buckets/application/issues/293))
+- **NEW:** When mass editing, you can set payee and memo to blank ([#1005](https://github.com/buckets/application/issues/1005))
+- **NEW:** You can now search by transaction category ([#1006](https://github.com/buckets/application/issues/1006))
+- **NEW:** Currency symbols can now be placed on the left or right side of numbers ([#605](https://github.com/buckets/application/issues/605))
+- **NEW:** You can now categorize multiple transactions at once ([#821](https://github.com/buckets/application/issues/821))
+- **FIX:** Fix SimpleFIN connection not working for some servers.
+- **FIX:** Stale, deleted budget files are now deleted from the recently opened list after a while ([#999](https://github.com/buckets/application/issues/999))
+- **FIX:** Fix crash during sharing in some specific cases ([#1025](https://github.com/buckets/application/issues/1025))
+- **FIX:** When importing from CSV files, trim whitespace before parsing dates ([#1007](https://github.com/buckets/application/issues/1007))
+- **FIX:** Fixed an error that happens sometimes when importing from YNAB4 ([#1013](https://github.com/buckets/application/issues/1013))
+- **FIX:** If you've manually changed a transaction's posted date, a subsequent import/sync will no longer revert your changes ([#685](https://github.com/buckets/application/issues/685))
+- **FIX:** Bank macro windows loads again! ([#1009](https://github.com/buckets/application/issues/1009), [#1015](https://github.com/buckets/application/issues/1015), [#975](https://github.com/buckets/application/issues/975))
+- **FIX:** YNAB4 imports now include payee ([#1011](https://github.com/buckets/application/issues/1011))
+- **FIX:** Fix a crash resulting from failure to create sharing keys ([#838](https://github.com/buckets/application/issues/838))
+- **FIX:** Payees can now be imported with OFX and CSV files ([#1008](https://github.com/buckets/application/issues/1008))
+- **FIX:** Fix an error that sometimes happens when moving between months on the transactions page. ([#1024](https://github.com/buckets/application/issues/1024))
+- **FIX:** Pressing enter quickly on the In/Out field no longer repeats the action ([#998](https://github.com/buckets/application/issues/998))
+- **FIX:** When an account has been deleted, no longer cause an error when importing to that account ([#1001](https://github.com/buckets/application/issues/1001))
+
 # v0.76.0 - 2024-07-05
 
 - **NEW:** Search page: you can now categorize and edit transactions on the search page ([#675](https://github.com/buckets/application/issues/675))
@@ -862,7 +883,7 @@
 - NEW: Auto-updating is now supported on Linux for AppImage installs
 - NEW: Reduce license price from $40 to $29 (and intro price from $20 to $15)
 
-# v0.18.0
+# v0.18.0 - 2017-09-13
 
 - NEW: Buckets is now available in Spanish!
 
@@ -877,7 +898,7 @@
 - **FIX:** Now, when you sync transactions, it will only sync the current month
 - **FIX:** The update process is even *more* clear.
 
-# v0.15.0
+# v0.15.0 - 2017-08-25
 
 - **FIX:** If you try to open/create a file that's unreadable and error is displayed instead of failing silently
 
@@ -890,20 +911,20 @@
 - NEW: You can now explicitly mark bucket transactions as transfers
 
 
-# v0.14.0
+# v0.14.0 - 2017-08-15
 
 - **FIX:** When updating an account balance in a month that isn't the current month, it now does the right thing.
 - **FIX:** Removed the mystery of what's going on during update download/install.
 - NEW: Added a bucket expense analysis section.
 
 
-# v0.13.0
+# v0.13.0 - 2017-08-04
 
 - NEW: Added a new 'Analysis' section with helpful month-to-month and year-to-year charts
 - NEW: Added *Chat with Matt* navigation item
 
 
-# v0.12.0
+# v0.12.0 - 2017-08-02
 
 - NEW: Now you can get instant help with the 'Chat...' option in the Help menu.
 - NEW: Added *Effective Balance* column to buckets for when there are buckets in debt (so you don't think you have more money than you do).
@@ -911,7 +932,7 @@
 - NEW: Linux installs will now be notified of updates, too
 
 
-# v0.11.0
+# v0.11.0 - 2017-08-01
 
 - **FIX:** Style fixes and extra tooltip helps
 - **FIX:** Some menu items are disabled/enabled now when the context justifies it.
