@@ -1,3 +1,13 @@
+# v0.78.0 - 2024-12-27
+
+- **FIX:** Prevent a crash that happened sometimes when users clicked on the Buckets icon before the app was fully loaded ([#1026](https://github.com/buckets/application/issues/1026))
+- **FIX:** When printing the Income and Expense report, it's no longer limited to one page ([#1020](https://github.com/buckets/application/issues/1020))
+- **FIX:** Bank macros are no longer deleted when the name is changed ([#975](https://github.com/buckets/application/issues/975))
+- **FIX:** Fix error encountered when importing from YNAB4 ([#1013](https://github.com/buckets/application/issues/1013))
+- **FIX:** Moving between docs pages before videos have a chance to load no longer causes the window to close ([#1031](https://github.com/buckets/application/issues/1031))
+- **FIX:** Cleared checkbox shows on hover again ([#1038](https://github.com/buckets/application/issues/1038))
+- Internal refactoring of some core code
+
 # v0.77.0 - 2024-10-02
 
 - **NEW:** First draft of dark mode ([#293](https://github.com/buckets/application/issues/293))
