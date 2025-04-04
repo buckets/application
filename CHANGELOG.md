@@ -1,3 +1,10 @@
+# v0.79.0 - 2025-04-04
+
+- **NEW:** Added a payee management tool to help transition from using memos to payees ([#1047](https://github.com/buckets/application/issues/1047))
+- **FIX:** Duplicate transaction detection is limited to right around the month currently being viewed, even after importing or updating transactions ([#1055](https://github.com/buckets/application/issues/1055))
+- **FIX:** Translation updates
+- **FIX:** The whole memo and payee is shown on transactions again ([#1052](https://github.com/buckets/application/issues/1052))
+
 # v0.78.0 - 2024-12-27
 
 - **FIX:** Prevent a crash that happened sometimes when users clicked on the Buckets icon before the app was fully loaded ([#1026](https://github.com/buckets/application/issues/1026))
