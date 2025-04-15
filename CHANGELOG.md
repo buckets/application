@@ -1,3 +1,12 @@
+# v0.79.1 - 2025-04-15
+
+- **FIX:** Fixed the situation where you could make debt payment buckets unkickable ([#818](https://github.com/buckets/application/issues/818))
+- **FIX:** Fixed OFX import error when no accounts are found in the file ([#816](https://github.com/buckets/application/issues/816))
+- **FIX:** Added menu to preferences window on Windows so that licenses can be pasted via the menu ([#1016](https://github.com/buckets/application/issues/1016))
+- **FIX:** Choosing a payee from the dropdown is no longer slow even with many payees ([#1060](https://github.com/buckets/application/issues/1060))
+- **FIX:** Updating categories on the search page will now reflect immediately ([#1057](https://github.com/buckets/application/issues/1057))
+- **FIX:** The top "Month's loss" number will now only be colored red once the month is done so you're not seeing red the whole month until you get paid ([#659](https://github.com/buckets/application/issues/659))
+
 # v0.79.0 - 2025-04-04
 
 - **NEW:** Added a payee management tool to help transition from using memos to payees ([#1047](https://github.com/buckets/application/issues/1047))
