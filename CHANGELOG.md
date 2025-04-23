@@ -1,3 +1,13 @@
+# v0.80.0 - 2025-04-22
+
+- **BREAKING CHANGE:** Removed Amazon reconciliation tool as the transactions page offered by Amazon makes it easy enough to reconcile ([#1030](https://github.com/buckets/application/issues/1030), [#766](https://github.com/buckets/application/issues/766), [#287](https://github.com/buckets/application/issues/287))
+- **NEW:** Accounts can now be arbitrarily ordered ([#599](https://github.com/buckets/application/issues/599))
+- **NEW:** Add cleared status to transaction export CSVs ([#1039](https://github.com/buckets/application/issues/1039))
+- **NEW:** Added transaction type to exported CSVs ([#845](https://github.com/buckets/application/issues/845))
+- **NEW:** You can choose a date format independent of the language default ([#339](https://github.com/buckets/application/issues/339))
+- **FIX:** UI for mass editing is more clear with the *Apply* button being disabled when it's nothing is selected ([#1037](https://github.com/buckets/application/issues/1037))
+- **FIX:** When importing from YNAB, fixed an error that would happen with payee name mismatch ([#1074](https://github.com/buckets/application/issues/1074))
+
 # v0.79.1 - 2025-04-15
 
 - **FIX:** Fixed the situation where you could make debt payment buckets unkickable ([#818](https://github.com/buckets/application/issues/818))
