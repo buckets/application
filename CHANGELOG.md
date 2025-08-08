@@ -1,3 +1,8 @@
+# v0.81.0 - 2025-08-08
+
+- **NEW:** Using a new Windows code signing certificate. Auto-update from Windows machines will likely not work for this first version but should work thereafter.
+- **FIX:** YNAB import fixed to handle the new format ([#1079](https://github.com/buckets/application/issues/1079))
+
 # v0.80.0 - 2025-04-22
 
 - **BREAKING CHANGE:** Removed Amazon reconciliation tool as the transactions page offered by Amazon makes it easy enough to reconcile ([#1030](https://github.com/buckets/application/issues/1030), [#766](https://github.com/buckets/application/issues/766), [#287](https://github.com/buckets/application/issues/287))
