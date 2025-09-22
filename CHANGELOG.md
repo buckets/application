@@ -1,3 +1,14 @@
+# v0.81.1 - 2025-09-22
+
+- **FIX:** Make progress bar text always visible in dark mode ([#1091](https://github.com/buckets/application/issues/1091))
+- **FIX:** The import page now includes a link back to the SimpleFIN server. ([#585](https://github.com/buckets/application/issues/585))
+- **FIX:** Many more translations for various languages.
+- **FIX:** Fix bug that would cause checking for updates to be repeated ([#1078](https://github.com/buckets/application/issues/1078))
+- **FIX:** Two-step deletes removed in favor of being able to click 'Undo' ([#795](https://github.com/buckets/application/issues/795))
+- **FIX:** Delete notifications now include an 'Undo' button ([#708](https://github.com/buckets/application/issues/708))
+- **FIX:** In dark mode, dropdown highlighted options are less bright and have higher contrast ([#1067](https://github.com/buckets/application/issues/1067))
+- **FIX:** macOS icon matches size of standard system icons ([#1019](https://github.com/buckets/application/issues/1019))
+
 # v0.81.0 - 2025-08-08
 
 - **NEW:** Using a new Windows code signing certificate. Auto-update from Windows machines will likely not work for this first version but should work thereafter.
